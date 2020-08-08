@@ -1,8 +1,8 @@
 ### Hi there, I'm Murilo - aka [Bellatus][website] 👋
 
 ## I'm an Engineer, Developer, and Forever Curious AI Enthusiast
-- 🇩🇪 I’m currently learning to take the TestDaF - German Toefl 🤣 (*Deutsch ist meine Lieblingssprache!*)
-- 🌍 My life's Goal: visit 100 countries around the world before 40
+- 🥇 I’m currently learning to take the TestDaF - German Toefl 🤣 (*Deutsch ist meine Lieblingssprache!*)
+- 🌍 My life's Goal: visit 100 countries around the world before I'm 40
 - 🎸 Fun fact: I love to sing and play the guitar with friends
 
 ### Connect with me:
@@ -31,8 +31,6 @@
 <br />
 
 ---
-
-<img align="left" alt="murilobellatini's Github Stats" src="https://github-readme-stats.vercel.app/api?username=murilobellatini&show_icons=true&hide_border=true" />
 
 [website]: https://murilobellatini.github.io/
 [twitter]: https://twitter.com/beliu89
