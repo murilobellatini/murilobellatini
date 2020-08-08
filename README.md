@@ -2,7 +2,7 @@
 
 ## I'm an Engineer, Developer, and Forever Curious AI Enthusiast
 - 🥇 I’m currently learning to take the TestDaF - German Toefl 🤣 (*Deutsch ist meine Lieblingssprache!*)
-- 🌍 My life's Goal: visit 100 countries around the world before I'm 40
+- 🌍 My life's goal: visit 100 countries around the world before I'm 40
 - 🎸 Fun fact: I love to sing and play the guitar with friends
 
 ### Connect with me:
@@ -30,7 +30,6 @@
 <br />
 <br />
 
-<img src=""/>
 ---
 
 [website]: https://murilobellatini.github.io/
