@@ -1,10 +1,5 @@
 ### Hi there, I'm Murilo - aka [Bellatus][website] 👋
 
-## I'm an Engineer, Developer, and Forever Curious AI Enthusiast
-- 🥇 I’m currently learning to take the TestDaF - German Toefl 🤣 (*Deutsch ist meine Lieblingssprache!*)
-- 🌍 My life's goal: visit 100 countries around the world before I'm 40
-- 🎸 Fun fact: I love to sing and play the guitar with friends
-
 ### Connect with me:
 
 [<img align="left" alt="Bellatus | github.io" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
