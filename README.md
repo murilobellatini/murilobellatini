@@ -1,4 +1,10 @@
-### Hi there, I'm Murilo - aka [Bellatus][website] 👋
+### Hi there, I'm Murilo 👋
+
+My main skill is to assess the feasibility of Big Data solutions via Business Cases and MVP Development (as Proof of Concept).
+
+Apart from working with cloud computing since 2018, I also have a background in Project Management and Product Development.
+
+I have a hands on style, and look forward for opportunities to build great solutions together with a team.
 
 ### Connect with me:
 
