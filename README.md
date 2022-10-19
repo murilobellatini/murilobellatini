@@ -1,10 +1,11 @@
 ### Hi there, I'm Murilo 👋
 
-My main skill is to assess the feasibility of Big Data solutions via Business Cases and MVP Development (as Proof of Concept).
+Working with data since 2018, I have experience with software development, data engineering, and analytics.
 
-Apart from working with cloud computing since 2018, I also have a background in Project Management and Product Development.
+During these years, I acquired two Google Cloud Platform certifications and started pursuing a master's in RCI (Robotics, Cognition & Intelligence) at TUM to deepen my knowledge about machine learning and AI. 
 
-I have a hands on style, and look forward for opportunities to build great solutions together with a team.
+My goal is to become an AI expert that delivers solid big data solutions.
+
 
 ### Connect with me:
 
