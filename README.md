@@ -1,10 +1,14 @@
 ### Hi there, I'm Murilo 👋
 
-Working with data since 2018, I have experience with software development, data engineering, and analytics.
+> TL;DR: AI Master's graduate from TUM with expertise in Machine Learning, NLP, and Deep Learning, and former co-founder of a speech and text mining company. Passionate about making data accessible and seeking new opportunities in cutting-edge AI research. Contact me to learn more. 
 
-During these years, I acquired two Google Cloud Platform certifications and started pursuing a master's in RCI (Robotics, Cognition & Intelligence) at TUM to deepen my knowledge about machine learning and AI. 
+----------------------------------------------------------
 
-My goal is to become an AI expert that delivers solid big data solutions.
+With experience in BI, Data Science, and Big Data, I understand how data can be leveraged to drive business success. Additionally, my MBA degree from USP has provided valuable insights into the business side of technology. Through job rotations and demanding roles in Volkswagen's trainee program, I have honed my hard and soft skills.
+
+I am particularly interested in exploring the conversational aspect of AI to improve AI explainability, trustworthiness, and alignment, and to discuss ethical and societal implications. With expertise in NLP, deep learning, and problem-solving, I am dedicated to using AI to make knowledge and data more accessible.
+
+Interested in discussing AI? Let's connect!
 
 
 ### Connect with me:
