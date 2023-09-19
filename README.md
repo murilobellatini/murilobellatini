@@ -23,7 +23,7 @@
 
 ### 🛠 **Tech & Soft Skills**
 
-- **AI & Machine Learning**: PyTorch, TensorFlow, GCP Certified
+- **AI & Machine Learning**: PyTorch, GCP Certified
 - **Data**: BI, Data Engineering & Science
 - **Management**: Led cross-functional teams, experienced in customer relations
 
