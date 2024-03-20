@@ -10,7 +10,7 @@ Explore these in my pinned repositories!
 
 #### GenAI-Enhanced Solutions
 
-- **SegmentStyler**: Imagine typing "velvet seat cushion on a modern chair" and getting a precise 3D model of just the cushion part — that's what this tool excels at. It's perfect for anyone in Architecture or Interior Design who wants to quickly visualize design ideas.  Explore the code: [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler).
+- **SegmentStyler**: Imagine typing "velvet seat cushion on a modern chair" and you get a full 3D model of the chair where specifically the cushion part is styled according to your description. This tool is perfect for anyone in Architecture or Interior Design who wants to quickly visualize design ideas.  Explore the code: [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler).
 - **AI Eye Scan**: We've developed an AI model that can create and analyze eye images to identify health issues. This project paves the way for **Automated Health Reports** and deeper insights into eye conditions. Explore the code: [mlmi-oct-diffusion](https://github.com/murilobellatini/mlmi-oct-diffusion).
 - **News Sorter**: Ever wanted to sort a pile of newspapers with just a click? That's what this tool is all about. Using traditional machine learning techniques like word vectors, it classifies articles without needing powerful computing resources. Perfect for journalists or news enthusiasts on a budget. Explore the code: [newspapers-text-mining](https://github.com/murilobellatini/newspapers-text-mining).
 
