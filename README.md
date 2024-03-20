@@ -1,6 +1,6 @@
 ## Hey there! I'm Murilo  👋
 
-**Snapshot**: Data Scientist and Engineer with 6+ years of hands-on experience in **analytics and cloud computing**, plus 4+ years in **project leadership**. Skilled at combining technical expertise with business acumen to develop creative solutions. Interested in continuous learning and ethical GenAI, particularly for language. Dive into more about me on [LinkedIn](https://www.linkedin.com/in/mbellatini/).
+**Snapshot**: Data Scientist and Engineer with 6+ years of hands-on experience in **Analytics and Cloud Computing**, plus 4+ years in **Project Leadership**, and a Master's in AI & Robotics from TU Munich. Skilled at combining technical expertise with business acumen to develop creative solutions. Interested in continuous learning and ethical GenAI, particularly for language. Dive into more about me on [LinkedIn](https://www.linkedin.com/in/mbellatini/).
 
 ---
 
