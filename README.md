@@ -4,7 +4,7 @@ Senior AI Platform Engineer | Technical Lead
 Enterprise AI, LLM systems, and automotive software.
 
 I build production AI systems, lead technical delivery, and work close to the code.
-10+ years across AI, data, software, and product.
+8+ years in cloud and 3 building production GenAI systems
 
 ## Focus
 - Enterprise AI platforms
