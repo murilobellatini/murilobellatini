@@ -14,7 +14,7 @@ I got here by designing a lot of systems (and writing a lot of code). Now I buil
 
 ## My Portfolio
 
-A few highlights of what I've built
+Here are a few highlights of what I've built:
 
 ### FitGo: Beat yourself, no one else
 
