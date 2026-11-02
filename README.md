@@ -1,10 +1,10 @@
-# Hi, I'm Murilo 👋
+# Hi, I'm Murilo
 
 > 8+ years in software engineering, data and cloud · M.Sc. Robotics & AI, TU Munich
 
 I'm an AI Platform Engineer and Tech Lead on BMW's internal AI Assistant, where over 70,000 people each month build their own AI agents.
 
-I got here by writing a lot of code. Now I build AI-native: I decide what to build, AI agents write it, and I make sure it works.
+I got here by designing a lot of systems (and writing a lot of code). Now I build AI-native: I decide what to build, AI agents write it, and I make sure it works.
 
 📍 Munich · 🎯 Open to Staff AI Engineer and Tech Lead roles
 
@@ -14,7 +14,9 @@ I got here by writing a lot of code. Now I build AI-native: I decide what to bui
 
 ## My Portfolio
 
-### 💪 FitGo: Beat yourself, no one else
+A few highlights of what I've built
+
+### FitGo: Beat yourself, no one else
 
 A home fitness app with one button.
 
@@ -22,17 +24,11 @@ Press play and it shows you what to do, keeps you motivated, and takes the guess
 
 I wrote the idea and the rules, and AI agents wrote the code.
 
-#### ▶️ Watch the demo
+#### Watch the demo
 
 https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d
 
 **[Try FitGo →](https://muriloapps.dpdns.org/fitgo/)**
-
----
-
-### 🏭 BMW AI Assistant
-
-A platform that took us from Alpha in 3 months to General Availability in 6. About 7k people use it daily, and 5+ teams build on top of it.
 
 ---
 
