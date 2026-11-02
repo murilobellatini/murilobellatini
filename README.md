@@ -14,7 +14,9 @@ I got here by writing a lot of code. Now I build AI-native: I decide what to bui
 
 ### 💪 FitGo: Beat yourself, no one else
 
-A home fitness app with one button. Press play and it shows you what to do, keeps you motivated, and takes the guesswork out of getting fit.
+A home fitness app with one button.
+
+Press play and it shows you what to do, keeps you motivated, and takes the guesswork out of getting fit.
 
 I wrote the idea and the rules, and AI agents wrote the code.
 
