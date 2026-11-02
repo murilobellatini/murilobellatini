@@ -1,6 +1,8 @@
 # Hi, I'm Murilo 👋
 
-I'm a AI Engineering Lead on BMW's internal AI Assistant, where over 70,000 people each month build their own AI agents.
+> 8+ years in software engineering, data and cloud · M.Sc. Robotics & AI, TU Munich
+
+I'm an AI Platform Engineer and Tech Lead on BMW's internal AI Assistant, where over 70,000 people each month build their own AI agents.
 
 I got here by writing a lot of code. Now I build AI-native: I decide what to build, AI agents write it, and I make sure it works.
 
@@ -20,7 +22,11 @@ Press play and it shows you what to do, keeps you motivated, and takes the guess
 
 I wrote the idea and the rules, and AI agents wrote the code.
 
-[▶️ Watch the demo](https://github.com/murilobellatini/murilobellatini/blob/master/fitgo.mp4) · **[Try FitGo →](https://muriloapps.dpdns.org/fitgo/)**
+#### ▶️ Watch the demo
+
+https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d
+
+**[Try FitGo →](https://muriloapps.dpdns.org/fitgo/)**
 
 ---
 
@@ -35,7 +41,3 @@ A platform that took us from Alpha in 3 months to General Availability in 6. Abo
 - [Smart Poster](https://github.com/murilobellatini/smart-poster): makes social media posts for you
 - [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa): moves chatbots from Dialogflow to Rasa
 - [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler): 3D styling from text, built at TU Munich with [Maximilian Winter](https://github.com/MaximilianWinter)
-
----
-
-10+ years across engineering, data and product · M.Sc. Robotics & AI, TU Munich
