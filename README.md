@@ -1,6 +1,6 @@
 # Murilo Bellatini
 
-Senior AI Platform Engineer | Technical Lead  
+AI Platform Engineer | Technical Lead  
 Enterprise AI, LLM systems, and automotive software.
 
 I build production AI systems, lead technical delivery, and work close to the code.
