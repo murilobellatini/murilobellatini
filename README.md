@@ -28,9 +28,9 @@ A few highlights of what I've built:
 
 ### AI Platform Engineering
 
-At BMW, I lead the technical direction of an internal AI platform where 70,000+ employees build their own AI agents.
+At BMW, I lead the technical direction of an internal AI platform where BMW employees build their own AI agents.
 
-I focus on platform architecture, implementation design, LLM evaluation, and safe, staged releases.
+I focus on platform architecture, implementation design, and safe, staged releases.
 
 <details>
 <summary><strong>How I work</strong></summary>
