@@ -57,7 +57,7 @@ AI agents wrote much of the code with strong review and testing.
 
 #### Watch the demo
 
-<p align="center">
+<p>
   <video src="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d" controls width="320px" muted playsinline>
     <a href="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d">🎬 Click here to watch</a>
   </video>
@@ -92,7 +92,12 @@ flowchart LR
 
 For my master's research at [Alma PHIL](https://almaphil.de/), I built a system that turns chat conversations into a knowledge graph of personal relationships.
 
-The goal was to preserve context and support people living with dementia.
+Goal: help people living with dementia stay connected to important people, places, and memories by retrieving relevant context from a personal knowledge graph.
+
+<a href="https://youtu.be/K1lbAF3LXgk">
+  <a href="https://youtu.be/K1lbAF3LXgk">🎬 Watch the demo on YouTube</a>
+  <img src="https://img.youtube.com/vi/K1lbAF3LXgk/hqdefault.jpg" alt="Alma PHIL demo video" width="480">
+</a>
 
 - **Approach:** train AI models to construct the graph based on the conversation using public datasets
 - **Evaluation:** evaluated relationship extraction with precision, recall, and F1
