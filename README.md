@@ -37,7 +37,7 @@ A few highlights of what I've built
 - **Teaching and knowledge sharing**
   - [Practical Data Analysis Course](#teaching)
 
-- **Earlier Projects**
+- **Earlier projects**
   - [Dialog2Rasa, Smart Poster, SegmentStyler](#earlier-projects)
 
 ***
