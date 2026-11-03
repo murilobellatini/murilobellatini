@@ -27,7 +27,7 @@ I wrote the idea and the rules, and AI agents wrote the code.
 #### Watch the demo
 
 <p align="center">
-  <video src="https://dpdns.org" controls width="320px" muted playsinline></video>
+  <video src="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d" controls width="320px" muted playsinline></video>
 </p>
 
 **[Try FitGo →](https://muriloapps.dpdns.org/fitgo/)**
