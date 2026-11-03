@@ -1,13 +1,13 @@
 # Murilo Bellatini
 
-> Software, data, and cloud engineering · 8+ years  
+> +8 years · Software, data, and cloud engineering  
 > M.Sc. Robotics & AI, Technical University of Munich
 
-I build AI platforms and the systems around them.
+I work on AI platforms and the systems around them.
 
-At BMW, I lead the technical direction of an internal platform for building and sharing AI agents, working with teams across architecture, quality, and delivery.
+At BMW, I help shape the technical direction of an internal platform for building and sharing AI agents, working with teams across architecture, quality, and delivery.
 
-Based in Munich, Germany. Open to Staff AI Platform Engineer and hands-on Tech Lead roles.
+Based in Munich, Germany.
 
 [About Me](https://muriloapps.dpdns.org/me/d) · [CV](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn](https://www.linkedin.com/in/mbellatini/)
 
@@ -29,7 +29,7 @@ BMW employees needed an accessible, safe way to build their own AI agents.
 
 We built an internal self-service platform that is now used by more than 70,000 people each month.
 
-I led the technical direction from concept through company-wide release.
+I contributed to the technical direction from concept through company-wide release.
 
 <details>
 <summary>Scope and outcomes</summary>
@@ -38,7 +38,7 @@ I led the technical direction from concept through company-wide release.
 
 - Internal platform for building and sharing AI agents.
 - More than 70,000 monthly users.
-- Technical leadership from concept through company-wide release.
+- Contributed to technical direction from concept through company-wide release.
 
 </blockquote>
 
@@ -55,7 +55,7 @@ I led the technical direction from concept through company-wide release.
 <blockquote>
 
 - Co-designed branching, testing, and deployment strategies across teams.
-- Introduced user acceptance testing and staged rollouts.
+- Helped introduce user acceptance testing and staged rollouts.
 - Added automated Playwright end-to-end checks.
 
 </blockquote>
@@ -67,8 +67,8 @@ I led the technical direction from concept through company-wide release.
 
 <blockquote>
 
-- Built self-service benchmarking for agent builders.
-- Designed a quality-analysis framework for agent performance.
+- Worked on self-service benchmarking for agent builders.
+- Contributed to a quality-analysis framework for agent performance.
 
 </blockquote>
 
@@ -78,7 +78,6 @@ I led the technical direction from concept through company-wide release.
 <summary>Team collaboration</summary>
 
 <blockquote>
-
 Supported cross-functional teams through shadowing and reverse shadowing.
 
 </blockquote>
@@ -96,7 +95,6 @@ Supported cross-functional teams through shadowing and reverse shadowing.
 </blockquote>
 
 </details>
-
 <details>
 <summary><strong>AI-Native Product Delivery</strong></summary>
 
@@ -109,9 +107,9 @@ Supported cross-functional teams through shadowing and reverse shadowing.
 
 I wanted a simpler way to exercise at home: one button, press play, follow along.
 
-I built FitGo for myself and as a way to explore AI-native development.
+I started FitGo for myself and as a way to explore AI-native development.
 
-AI agents wrote much of the code. I handled product direction, architecture, specifications, review, and quality.
+AI agents wrote much of the code. I focused on product direction, architecture, specifications, review, and quality.
 
 The application is now entering validation with real users.
 
@@ -241,7 +239,7 @@ This work became my master’s thesis at the [Technical University of Munich](ht
 
 <blockquote>
 
-- Trained models to extract relationships from conversations.
+- Explored training models to extract relationships from conversations.
 - Built a knowledge graph from the extracted entities and relationships.
 - Used the graph to retrieve relevant people, places, and topics.
 
@@ -304,7 +302,7 @@ The public training data did not closely match real healthcare conversations, li
 
 <blockquote>
 
-I developed *Estratégias de Análise de Dados* (*Strategies for Data Analysis*), a practical course for people moving into data analysis.
+I created *Estratégias de Análise de Dados* (*Strategies for Data Analysis*), a practical course for people moving into data analysis.
 
 The course grew from a simple aim: make data analysis less abstract and connect the tools to real questions.
 
