@@ -25,17 +25,22 @@ I make sure it works.
 
 A few highlights of what I've built
 
-### Enterprise AI platforms
-- [BMW: AI Platform Engineering](#bmw-ai-platform-engineering)
+- **Enterprise AI platforms**
+  - [BMW: AI Platform Engineering](#bmw-ai-platform-engineering)
 
-### AI-native product ownership
-- [FitGo: Home Fitness App](#fitgo-home-fitness-app)
+- **AI-native product ownership**
+  - [FitGo: Home Fitness App](#fitgo-home-fitness-app)
 
-### Applied AI & evaluation
-- [Alma PHIL: Knowledge Graphs from Conversation](#alma-phil-knowledge-graphs-from-conversation)
+- **Applied AI research**
+  - [Alma PHIL: Knowledge Graphs from Conversation](#alma-phil-knowledge-graphs-from-conversation)
 
-### Technical influence
-- [Teaching](#teaching)
+- **Technical influence**
+  - [Teaching](#teaching)
+
+- **Earlier work**
+  - [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa)
+  - [Smart Poster](https://github.com/murilobellatini/smart-poster)
+  - [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler)
 
 ***
 
@@ -137,7 +142,7 @@ Then use it to retrieve the people, places, and topics relevant to the current c
 - Trained AI models to extract relationships from conversations
 - Built a knowledge graph from the extracted entities and relationships
 - Evaluated relationship extraction with precision, recall, and F1
-- Found a key limitation: the public training data did not match real healthcare conversations
+- Limitation: the public training data did not match real healthcare conversations
 
 This became my master's thesis at [TU Munich](https://www.tum.de/).
 
