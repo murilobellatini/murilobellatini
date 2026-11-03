@@ -22,7 +22,7 @@ A few highlights of what I've built:
 
 - [BMW: AI Platform Engineering](#bmw-ai-platform-engineering)
 - [FitGo: Home Fitness App](#fitgo-home-fitness-app)
-- [Alma PHIL: Knowledge Graphs from Conversation](#alpha-phil-knowledge-graphs-from-conversation)
+- [Alma PHIL: Knowledge Graphs from Conversation](#alma-phil-knowledge-graphs-from-conversation)
 - [Built by hand, before AI](#built-by-hand-before-ai)
 - [Teaching](#teaching)
 
@@ -53,7 +53,7 @@ Press play and it shows you what to do, keeps you motivated, and takes the guess
 
 I designed the product, the rules, and the architecture.
 
-AI agents wrote much of the code under my watch.
+AI agents wrote much of the code with strong review and testing.
 
 #### Watch the demo
 
@@ -95,7 +95,7 @@ For my master's research at [Alma PHIL](https://almaphil.de/), I built a system 
 The goal was to preserve context and support people living with dementia.
 
 - **Approach:** train AI models to construct the graph based on the conversation using public datasets
-- **Evaluation:** confusion matrix for multilabel classification to assess if relationships where found and with the correct label 
+- **Evaluation:** evaluated relationship extraction with precision, recall, and F1
 - **Limits:** quality for productive delivery, due to data mismatch between health care conversation and the one used for testing [DialogRE](https://dataset.org/dialogre/)
 
 This became my master's thesis at TU Munich.
