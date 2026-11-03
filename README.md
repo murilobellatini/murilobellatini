@@ -4,25 +4,56 @@
 
 I'm an AI Platform Engineer and Tech Lead on BMW's internal AI Assistant, where over 70,000 people each month build their own AI agents.
 
-I got here by designing a lot of systems (and writing a lot of code). Now I build AI-native: I decide what to build, AI agents write it, and I make sure it works.
+I design the architecture, set the quality bar, and own what ships.
 
-📍 Munich · 🎯 Open to Staff AI Engineer and Tech Lead roles
+AI agents speed up the building. I make sure it works.
+
+📍 Munich · 🎯 Open to Staff AI Platform Engineer and hands-on Tech Lead roles
 
 [About Me](https://muriloapps.dpdns.org/me/d) · [CV](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn](https://www.linkedin.com/in/mbellatini/)
 
----
+***
 
 ## My Portfolio
 
-Here are a few highlights of what I've built:
+A few highlights of what I've built:
 
-### FitGo: Beat yourself, no one else
+## Contents
+
+- [AI Platform Engineering](#ai-platform-engineering)
+- [FitGo: Home fitness app](#fitgo-home-fitness-app)
+- [Knowledge Graphs from Conversation](#knowledge-graphs-from-conversation)
+- [Built by hand, before AI](#built-by-hand-before-ai)
+- [Teaching](#teaching)
+
+### AI Platform Engineering
+
+At BMW, I lead the technical direction of an internal AI platform where 70,000+ employees build their own AI agents.
+
+I focus on platform architecture, implementation design, LLM evaluation, and safe, staged releases.
+
+<details>
+<summary><strong>How I work</strong></summary>
+
+- Co-designed branching, testing, and deployment strategy across teams.
+- Introduced UAT, staged rollouts, and automated Playwright E2E checks.
+- Built self-service benchmarking for agent builders.
+- Ran cost and quality analysis for high-volume model usage.
+- Enabled cross-functional teams through shadowing and reverse shadowing.
+
+</details>
+
+***
+
+### FitGo: Home fitness app
 
 A home fitness app with one button.
 
 Press play and it shows you what to do, keeps you motivated, and takes the guesswork out of getting fit.
 
-I wrote the idea and the rules, and AI agents wrote the code.
+I designed the product, the rules, and the architecture.
+
+AI agents wrote much of the code under my watch.
 
 #### Watch the demo
 
@@ -32,33 +63,57 @@ I wrote the idea and the rules, and AI agents wrote the code.
   </video>
 </p>
 
-
 **[Try FitGo →](https://muriloapps.dpdns.org/fitgo/)**
 
----
+<details>
+<summary><strong>Technical details</strong></summary>
+
+```mermaid
+flowchart LR
+    U[User] --> CF[Cloudflare]
+    CF --> FE[Frontend<br>FitGo web app]
+    FE --> BE[Backend<br>Nginx + Python API]
+
+    FE -. Google sign-in .-> GO[Google OAuth]
+    FE --- CD[(Browser data)]
+    BE --- SD[(Server data)]
+    BE -. Email .-> BR[Brevo]
+```
+
+- **Architecture:** Cloudflare edge → web frontend → Python API behind Nginx, hosted on a Raspberry Pi.
+- **Auth & email:** Google Sign-In for cross device data sync and Brevo for Newsletter.
+- **Quality:** 34 Playwright E2E tests included in the pre-merge to shield delivery.
+- **Delivery:** Staged INT/PROD deploys with automated smoke and core-test checks.
+- **Privacy:** Opt-in analytics, consent-based feedback, retention controls, and scheduled data purges.
+
+</details>
 
 ### Knowledge Graphs from Conversation
 
-During my master’s research at Alma Phil, I built a system that extracts personal relationships from chat conversations and maps them into a knowledge graph.
+For my master's research at Alma PHIL, I built a system that turns chat conversations into a knowledge graph of personal relationships.
 
-The goal was to help preserve context and support elderly people living with dementia.
+The goal was to preserve context and support people living with dementia.
 
-[![Knowledge graph research demo](https://img.youtube.com/vi/K1lbAF3LXgk/0.jpg)](https://www.youtube.com/watch?v=K1lbAF3LXgk)
+- **Approach:** train AI models to construct the graph based on the conversation using public datasets
+- **Evaluation:** confusion matrix for multilabel classification to assess if relationships where found and with the correct label 
+- **Limits:** quality for productive delivery, due to data mismatch between health care conversation and the one used for testing [DialogRE](https://dataset.org/dialogre/)
 
-**Research outcome:** This work became my master’s thesis, graded 1.7 at TU Munich.
+This became my master's thesis at TU Munich.
 
----
+***
 
-### 🛠️ Built by hand, before AI
+### Built by hand, before AI
 
-- [Smart Poster](https://github.com/murilobellatini/smart-poster): makes social media posts for you
+- [Smart Poster](https://github.com/murilobellatini/smart-poster): generates social media posts for you
 - [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa): moves chatbots from Dialogflow to Rasa
 - [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler): 3D styling from text, built at TU Munich with [Maximilian Winter](https://github.com/MaximilianWinter)
 
----
+***
 
 ### Teaching
 
-I created **Estratégias de Análise de Dados**, a practical course helping people transition into data-analysis work.
+I also teach.
+
+**Estratégias de Análise de Dados** (Strategies for Data Analysis) is a practical course for people moving into data analysis.
 
 [View the course →](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)
