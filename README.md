@@ -20,13 +20,13 @@ A few highlights of what I've built:
 
 ### Overview
 
-- [AI Platform Engineering](#ai-platform-engineering)
+- [BMW: AI Platform Engineering](#bmw-ai-platform-engineering)
 - [FitGo: Home fitness app](#fitgo-home-fitness-app)
-- [Knowledge Graphs from Conversation](#knowledge-graphs-from-conversation)
+- [Alma PHIL: Knowledge Graphs from Conversation](#alpha-phil-knowledge-graphs-from-conversation)
 - [Built by hand, before AI](#built-by-hand-before-ai)
 - [Teaching](#teaching)
 
-### AI Platform Engineering
+### BMW: AI Platform Engineering
 
 At BMW, I lead the technical direction of an internal AI platform where BMW employees build their own AI agents.
 
@@ -88,9 +88,9 @@ flowchart LR
 
 </details>
 
-### Knowledge Graphs from Conversation
+### Alma PHIL: Knowledge Graphs from Conversation
 
-For my master's research at Alma PHIL, I built a system that turns chat conversations into a knowledge graph of personal relationships.
+For my master's research at [Alma PHIL](https://almaphil.de/), I built a system that turns chat conversations into a knowledge graph of personal relationships.
 
 The goal was to preserve context and support people living with dementia.
 
