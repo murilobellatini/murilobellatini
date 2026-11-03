@@ -1,187 +1,465 @@
-# Hi, I'm Murilo
+# Murilo Bellatini
 
-> 8+ years in software, data, and cloud  
-> M.Sc. Robotics & AI, TU Munich
+> Software, data, and cloud engineering · 8+ years  
+> M.Sc. Robotics & AI, Technical University of Munich
 
-I build AI platforms people can actually use.
+I build AI platforms and the systems around them.
 
-At BMW, I lead the technical direction of an internal platform for building and sharing AI agents.
+At BMW, I lead the technical direction of an internal platform for building and sharing AI agents, working with teams across architecture, quality, and delivery.
 
-I design the architecture.  
-I set the quality bar.  
-I own what ships.
-
-AI agents speed up the building.  
-I make sure it works.
-
-📍 Munich  
-🎯 Open to Staff AI Platform Engineer and hands-on Tech Lead roles
+Based in Munich, Germany. Open to Staff AI Platform Engineer and hands-on Tech Lead roles.
 
 [About Me](https://muriloapps.dpdns.org/me/d) · [CV](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn](https://www.linkedin.com/in/mbellatini/)
 
-***
+---
 
-## My Portfolio
+## Portfolio
 
-A few highlights of what I've built
+<details open>
+<summary><strong>Enterprise AI Platforms</strong></summary>
 
-- **Enterprise AI platforms**
-  - [BMW: AI Platform Engineering](#bmw-ai-platform-engineering)
+<blockquote>
 
-- **AI-native product delivery**
-  - [FitGo: Home Fitness App](#fitgo-home-fitness-app)
+<details open>
+<summary>BMW — AI Platform Engineering</summary>
 
-- **Applied AI research**
-  - [Alma PHIL: Conversational Knowledge Graphs](#alma-phil-conversational-knowledge-graphs)
+<blockquote>
 
-- **Teaching and knowledge sharing**
-  - [Practical Data Analysis Course](#teaching)
+BMW employees needed an accessible, safe way to build their own AI agents.
 
-- **Earlier projects**
-  - [Dialog2Rasa, Smart Poster, SegmentStyler](#earlier-projects)
+We built an internal self-service platform that is now used by more than 70,000 people each month.
 
-***
-
-### BMW: AI Platform Engineering
-
-BMW employees wanted to build their own AI agents.
-
-Most had no easy, safe way to do it.
-
-So we built an internal self-service platform.
-
-Today, 70,000+ people use it every month.
-
-I led it technically from concept to company-wide release.
+I led the technical direction from concept through company-wide release.
 
 <details>
-<summary><strong>How I work</strong></summary>
+<summary>Scope and outcomes</summary>
 
+<blockquote>
 
-- Co-designed branching, testing, and deployment strategy across teams.
-- Introduced UAT, staged rollouts, and automated Playwright E2E checks.
-- Built self-service benchmarking for agent builders.
-- Designed quality analysis framework for agent performance.
-- Enabled cross-functional teams through shadowing and reverse shadowing.
+- Internal platform for building and sharing AI agents.
+- More than 70,000 monthly users.
+- Technical leadership from concept through company-wide release.
+
+</blockquote>
 
 </details>
 
-***
+<details>
+<summary>Technical contributions</summary>
 
-### FitGo: Home Fitness App
+<blockquote>
 
-Fitness apps got too complicated.
+<details>
+<summary>Delivery and quality</summary>
 
-So I built my own.
+<blockquote>
 
-One button. Press play. Follow along.
+- Co-designed branching, testing, and deployment strategies across teams.
+- Introduced user acceptance testing and staged rollouts.
+- Added automated Playwright end-to-end checks.
 
-Built for myself. A showcase of AI-native development:
+</blockquote>
 
-- AI agents wrote much of the code
-- I owned product, architecture, specs, review, and quality
-- Now entering validation with real users
+</details>
 
-#### Watch the demo
+<details>
+<summary>Agent evaluation</summary>
+
+<blockquote>
+
+- Built self-service benchmarking for agent builders.
+- Designed a quality-analysis framework for agent performance.
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Team collaboration</summary>
+
+<blockquote>
+
+Supported cross-functional teams through shadowing and reverse shadowing.
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>AI-Native Product Delivery</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>FitGo — Home Fitness Application</summary>
+
+<blockquote>
+
+I wanted a simpler way to exercise at home: one button, press play, follow along.
+
+I built FitGo for myself and as a way to explore AI-native development.
+
+AI agents wrote much of the code. I handled product direction, architecture, specifications, review, and quality.
+
+The application is now entering validation with real users.
+
+[Open FitGo →](https://muriloapps.dpdns.org/fitgo/)
+
+<details>
+<summary>Product demonstration</summary>
+
+<blockquote>
 
 <p>
-  <video src="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d" controls width="320px" muted playsinline>
-    <a href="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d">🎬 Click here to watch</a>
+  <video src="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d" controls width="320" muted playsinline>
+    <a href="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d">Watch the demonstration</a>
   </video>
 </p>
 
-**[Try FitGo →](https://muriloapps.dpdns.org/fitgo/)**
+[Watch the demonstration →](https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d)
+
+</blockquote>
+
+</details>
 
 <details>
-<summary><strong>Technical details</strong></summary>
+<summary>Technical implementation</summary>
 
+<blockquote>
+
+<details>
+<summary>Architecture and hosting</summary>
+
+<blockquote>
 
 ```mermaid
 flowchart LR
     U[User] --> CF[Cloudflare]
-    CF --> FE[Frontend<br>FitGo web app]
+    CF --> FE[Frontend<br>FitGo web application]
     FE --> BE[Backend<br>Nginx + Python API]
 
-    FE -. Google sign-in .-> GO[Google OAuth]
+    FE -. Google Sign-In .-> GO[Google OAuth]
     FE --- CD[(Browser data)]
     BE --- SD[(Server data)]
     BE -. Email .-> BR[Brevo]
 ```
 
-- **Architecture:** Cloudflare edge → web frontend → Python API behind Nginx, hosted on a Raspberry Pi.
-- **Auth & email:** Google Sign-In for cross device data sync and Brevo for Newsletter.
-- **Quality:** 34 Playwright E2E tests included in the pre-merge to shield delivery.
-- **Delivery:** Staged INT/PROD deploys with automated smoke and core-test checks.
-- **Privacy:** Opt-in analytics, consent-based feedback, retention controls, and scheduled data purges.
+- Cloudflare edge with a web frontend.
+- Python API behind Nginx, hosted on a Raspberry Pi.
+- Browser-based and server-side data storage.
+
+</blockquote>
 
 </details>
 
-***
+<details>
+<summary>Authentication and email</summary>
 
-### Alma PHIL: Conversational Knowledge Graphs
+<blockquote>
 
-Conversations contain important context.
+- Google Sign-In for cross-device data synchronisation.
+- Brevo for newsletter delivery.
 
-Who matters. Where they live. What they care about.
+</blockquote>
 
-But chatbots usually forget it.
+</details>
 
-For my master’s research at [Alma PHIL](https://almaphil.de/), I explored a different approach:
+<details>
+<summary>Testing and deployment</summary>
 
-Turn conversations into a personal knowledge graph.
+<blockquote>
 
-Then use it to retrieve the people, places, and topics relevant to the current conversation.
+- 34 Playwright end-to-end tests included in the pre-merge checks.
+- Staged integration and production deployments.
+- Automated smoke and core-test checks.
 
-<a href="https://youtu.be/K1lbAF3LXgk">
-  <a href="https://youtu.be/K1lbAF3LXgk">🎬 Watch the demo on YouTube</a>
-  <img src="https://img.youtube.com/vi/K1lbAF3LXgk/hqdefault.jpg" alt="Alma PHIL demo video" width="480">
-</a>
+</blockquote>
 
-- Trained AI models to extract relationships from conversations
-- Built a knowledge graph from the extracted entities and relationships
-- Evaluated relationship extraction with precision, recall, and F1
-- Limitation: the public training data did not match real healthcare conversations
+</details>
 
-This became my master's thesis at [TU Munich](https://www.tum.de/).
+<details>
+<summary>Privacy and data handling</summary>
 
-Beyond building, I also teach.
+<blockquote>
 
-***
+- Opt-in analytics.
+- Consent-based feedback.
+- Retention controls.
+- Scheduled data purges.
 
-### Teaching
+</blockquote>
 
-Data analysis can feel abstract.
+</details>
 
-Tools, theory, and buzzwords—before you ever answer a real question.
+</blockquote>
 
-So I built a practical course for people moving into data analysis.
+</details>
 
-**Estratégias de Análise de Dados**  
-*(Strategies for Data Analysis)*
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>Applied AI Research</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>Alma PHIL — Conversational Knowledge Graphs</summary>
+
+<blockquote>
+
+Conversations contain personal context: people, places, and the things that matter to them.
+
+For my master’s research at [Alma PHIL](https://almaphil.de/), I explored how to represent that context as a personal knowledge graph and retrieve information relevant to the current conversation.
+
+This work became my master’s thesis at the [Technical University of Munich](https://www.tum.de/).
+
+<details>
+<summary>Research and evaluation</summary>
+
+<blockquote>
+
+<details>
+<summary>Approach</summary>
+
+<blockquote>
+
+- Trained models to extract relationships from conversations.
+- Built a knowledge graph from the extracted entities and relationships.
+- Used the graph to retrieve relevant people, places, and topics.
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Evaluation</summary>
+
+<blockquote>
+
+Evaluated relationship extraction using precision, recall, and F1 score.
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Limitations</summary>
+
+<blockquote>
+
+The public training data did not closely match real healthcare conversations, limiting how well the evaluation represented the intended setting.
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Demonstration</summary>
+
+<blockquote>
+
+[Watch the demonstration on YouTube →](https://youtu.be/K1lbAF3LXgk)
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>Teaching and Knowledge Sharing</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>Practical Data Analysis Course</summary>
+
+<blockquote>
+
+I developed *Estratégias de Análise de Dados* (*Strategies for Data Analysis*), a practical course for people moving into data analysis.
+
+The course grew from a simple aim: make data analysis less abstract and connect the tools to real questions.
 
 [View the course →](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)
 
-***
+</blockquote>
 
-### Earlier Projects
+</details>
 
-Before AI-native development became my default, I built tools by hand.
+</blockquote>
 
-- [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa): moves chatbots from Dialogflow to Rasa
-- [Smart Poster](https://github.com/murilobellatini/smart-poster): generates social media posts for you
-- [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler): 3D styling from text, built at TU Munich with [Maximilian Winter](https://github.com/MaximilianWinter)
+</details>
 
-***
+<details>
+<summary><strong>Earlier Projects</strong></summary>
 
-## Core Stack
+<blockquote>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+<details>
+<summary>Dialog2Rasa</summary>
 
-> **AI platform focus:** LLM agents · MCP · A2A · Skills · RAG · LLM evaluation · human-in-the-loop · security & compliance
+<blockquote>
+
+A tool for migrating chatbots from Dialogflow to Rasa.
+
+[View on GitHub →](https://github.com/murilobellatini/dialog2rasa)
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Smart Poster</summary>
+
+<blockquote>
+
+A tool for generating social-media posts.
+
+[View on GitHub →](https://github.com/murilobellatini/smart-poster)
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>SegmentStyler</summary>
+
+<blockquote>
+
+Text-driven 3D styling, developed at the Technical University of Munich with [Maximilian Winter](https://github.com/MaximilianWinter).
+
+[View on GitHub →](https://github.com/MaximilianWinter/SegmentStyler)
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+---
+
+## Technical Skills
+
+<details>
+<summary><strong>Software, Cloud, and Delivery</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>Language</summary>
+
+<blockquote>
+
+Python
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Cloud and infrastructure</summary>
+
+<blockquote>
+
+- AWS
+- Google Cloud
+- Docker
+- Nginx
+- Cloudflare
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Testing and automation</summary>
+
+<blockquote>
+
+- GitHub Actions
+- Playwright
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>AI Platforms</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>Agents and interoperability</summary>
+
+<blockquote>
+
+- LLM agents
+- Model Context Protocol (MCP)
+- Agent-to-Agent communication (A2A)
+- Skills and tool use
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Retrieval and evaluation</summary>
+
+<blockquote>
+
+- Retrieval-augmented generation (RAG)
+- LLM evaluation
+- Human-in-the-loop workflows
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Governance</summary>
+
+<blockquote>
+
+Security and compliance
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
