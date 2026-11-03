@@ -3,97 +3,146 @@
 > Software, data, and cloud engineering · 8+ years  
 > M.Sc. Robotics & AI, Technical University of Munich
 
-I work on AI platforms and the systems around them.
+I build AI platforms and the systems around them.
 
-At BMW, I contribute to the technical direction of an internal platform for building and sharing AI agents.
+At BMW, I lead the technical direction of an internal platform for building and sharing AI agents, working with teams across architecture, quality, and delivery.
 
-I work on architecture, quality, and delivery, together with the teams involved.
-
-📍 Munich, Germany  
-🎯 Open to Staff AI Platform Engineer and hands-on Tech Lead roles
+Based in Munich, Germany. Open to Staff AI Platform Engineer and hands-on Tech Lead roles.
 
 [About Me](https://muriloapps.dpdns.org/me/d) · [CV](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn](https://www.linkedin.com/in/mbellatini/)
 
-***
+---
 
 ## Portfolio
 
 <details open>
 <summary><strong>Enterprise AI Platforms</strong></summary>
 
-<br>
+<blockquote>
 
 <details open>
-<summary><strong>BMW — AI Platform Engineering</strong></summary>
+<summary>BMW — AI Platform Engineering</summary>
 
-<br>
+<blockquote>
 
-BMW employees wanted to build their own AI agents, but had no simple or safe way to do so.
+BMW employees needed an accessible, safe way to build their own AI agents.
 
-An internal self-service platform was built to address this. It is now used by more than 70,000 people each month.
+We built an internal self-service platform that is now used by more than 70,000 people each month.
 
-I contributed to the platform’s technical direction from its early concept through company-wide release.
-
-**Role:** Technical Lead · AI Platform Engineering
+I led the technical direction from concept through company-wide release.
 
 <details>
-<summary>Context and outcomes</summary>
+<summary>Scope and outcomes</summary>
 
-- The initial platform concept was delivered within three months; general availability followed within six.
-- The platform now serves more than 70,000 monthly users, with approximately 7,000 daily users.
-- I worked with a cross-functional group of more than 15 engineers across development, quality assurance, and user experience.
-- The platform has operated without reported security or compliance breaches since 2024.
+<blockquote>
+
+- Internal platform for building and sharing AI agents.
+- More than 70,000 monthly users.
+- Technical leadership from concept through company-wide release.
+
+</blockquote>
 
 </details>
 
 <details>
-<summary>Areas of contribution</summary>
+<summary>Technical contributions</summary>
 
-- Contributed to the branching, testing, and deployment strategy across contributing teams.
-- Helped introduce user acceptance testing, staged rollouts, and automated Playwright end-to-end checks.
+<blockquote>
+
+<details>
+<summary>Delivery and quality</summary>
+
+<blockquote>
+
+- Co-designed branching, testing, and deployment strategies across teams.
+- Introduced user acceptance testing and staged rollouts.
+- Added automated Playwright end-to-end checks.
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Agent evaluation</summary>
+
+<blockquote>
+
 - Built self-service benchmarking for agent builders.
-- Contributed to a quality-analysis framework for evaluating agent performance.
-- Supported cross-functional teams through shadowing and reverse shadowing.
+- Designed a quality-analysis framework for agent performance.
+
+</blockquote>
 
 </details>
 
+<details>
+<summary>Team collaboration</summary>
+
+<blockquote>
+
+Supported cross-functional teams through shadowing and reverse shadowing.
+
+</blockquote>
+
 </details>
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+</blockquote>
 
 </details>
 
 <details>
 <summary><strong>AI-Native Product Delivery</strong></summary>
 
-<br>
+<blockquote>
 
 <details>
-<summary><strong>FitGo — Home Fitness Application</strong></summary>
+<summary>FitGo — Home Fitness Application</summary>
 
-<br>
+<blockquote>
 
-Fitness applications often introduce more complexity than many users need.
+I wanted a simpler way to exercise at home: one button, press play, follow along.
 
-FitGo takes a simpler approach: one button, press play, follow along.
+I built FitGo for myself and as a way to explore AI-native development.
 
-I built it as a personal project and as a way to explore AI-native development. AI agents wrote much of the code; I handled the product direction, architecture, specifications, review, and quality.
+AI agents wrote much of the code. I handled product direction, architecture, specifications, review, and quality.
 
-**Role:** Product Owner · Architect · Engineer
+The application is now entering validation with real users.
 
-**[Open FitGo](https://muriloapps.dpdns.org/fitgo/)**
+[Open FitGo →](https://muriloapps.dpdns.org/fitgo/)
 
 <details>
-<summary>Demonstration</summary>
+<summary>Product demonstration</summary>
+
+<blockquote>
 
 <p>
-  <video src="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d" controls width="320px" muted playsinline>
+  <video src="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d" controls width="320" muted playsinline>
     <a href="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d">Watch the demonstration</a>
   </video>
 </p>
 
+[Watch the demonstration →](https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d)
+
+</blockquote>
+
 </details>
 
 <details>
-<summary>Architecture</summary>
+<summary>Technical implementation</summary>
+
+<blockquote>
+
+<details>
+<summary>Architecture and hosting</summary>
+
+<blockquote>
 
 ```mermaid
 flowchart LR
@@ -107,155 +156,310 @@ flowchart LR
     BE -. Email .-> BR[Brevo]
 ```
 
-- **Infrastructure:** Cloudflare edge, web frontend, and a Python API behind Nginx, hosted on a Raspberry Pi.
-- **Authentication and communication:** Google Sign-In for cross-device synchronisation and Brevo for newsletter delivery.
-- **Data:** Browser-based and server-side storage, separated by responsibility.
+- Cloudflare edge with a web frontend.
+- Python API behind Nginx, hosted on a Raspberry Pi.
+- Browser-based and server-side data storage.
+
+</blockquote>
 
 </details>
 
 <details>
-<summary>Engineering practices</summary>
+<summary>Authentication and email</summary>
 
-- Included 34 Playwright end-to-end tests as part of the pre-merge quality gate.
-- Used staged integration and production deployments.
-- Automated smoke and core-test checks before release.
-- Applied opt-in analytics, consent-based feedback, retention controls, and scheduled data purges.
+<blockquote>
+
+- Google Sign-In for cross-device data synchronisation.
+- Brevo for newsletter delivery.
+
+</blockquote>
 
 </details>
 
+<details>
+<summary>Testing and deployment</summary>
+
+<blockquote>
+
+- 34 Playwright end-to-end tests included in the pre-merge checks.
+- Staged integration and production deployments.
+- Automated smoke and core-test checks.
+
+</blockquote>
+
 </details>
+
+<details>
+<summary>Privacy and data handling</summary>
+
+<blockquote>
+
+- Opt-in analytics.
+- Consent-based feedback.
+- Retention controls.
+- Scheduled data purges.
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+</blockquote>
 
 </details>
 
 <details>
 <summary><strong>Applied AI Research</strong></summary>
 
-<br>
+<blockquote>
 
 <details>
-<summary><strong>Alma PHIL — Conversational Knowledge Graphs</strong></summary>
+<summary>Alma PHIL — Conversational Knowledge Graphs</summary>
 
-<br>
+<blockquote>
 
-Conversations contain context that is easy to lose: the people involved, where they live, and what matters to them. Chatbots, however, typically do not retain this context.
+Conversations contain personal context: people, places, and the things that matter to them.
 
-For my master’s research at [Alma PHIL](https://almaphil.de/), I explored whether conversations could be represented as a personal knowledge graph and used to retrieve relevant people, places, and topics.
+For my master’s research at [Alma PHIL](https://almaphil.de/), I explored how to represent that context as a personal knowledge graph and retrieve information relevant to the current conversation.
 
 This work became my master’s thesis at the [Technical University of Munich](https://www.tum.de/).
 
-**Role:** Researcher · Machine Learning Engineer
+<details>
+<summary>Research and evaluation</summary>
+
+<blockquote>
 
 <details>
 <summary>Approach</summary>
 
-- Trained machine-learning models to extract relationships from conversations.
-- Constructed a knowledge graph from the extracted entities and relationships.
-- Used the graph to retrieve contextually relevant people, places, and topics.
+<blockquote>
+
+- Trained models to extract relationships from conversations.
+- Built a knowledge graph from the extracted entities and relationships.
+- Used the graph to retrieve relevant people, places, and topics.
+
+</blockquote>
 
 </details>
 
 <details>
-<summary>Evaluation and limitations</summary>
+<summary>Evaluation</summary>
 
-- Evaluated relationship extraction using precision, recall, and F1 score.
-- A key limitation was that publicly available training data did not closely match real healthcare conversations.
-- These findings informed the scope and limitations of the approach.
+<blockquote>
+
+Evaluated relationship extraction using precision, recall, and F1 score.
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Limitations</summary>
+
+<blockquote>
+
+The public training data did not closely match real healthcare conversations, limiting how well the evaluation represented the intended setting.
+
+</blockquote>
+
+</details>
+
+</blockquote>
 
 </details>
 
 <details>
 <summary>Demonstration</summary>
 
-<a href="https://youtu.be/K1lbAF3LXgk">
-  <img src="https://img.youtube.com/vi/K1lbAF3LXgk/hqdefault.jpg" alt="Alma PHIL demonstration video" width="480"><br>
-  Watch the demonstration on YouTube
-</a>
+<blockquote>
+
+[Watch the demonstration on YouTube →](https://youtu.be/K1lbAF3LXgk)
+
+</blockquote>
 
 </details>
 
+</blockquote>
+
 </details>
+
+</blockquote>
 
 </details>
 
 <details>
 <summary><strong>Teaching and Knowledge Sharing</strong></summary>
 
-<br>
+<blockquote>
 
 <details>
-<summary><strong>Practical Data Analysis Course</strong></summary>
+<summary>Practical Data Analysis Course</summary>
 
-<br>
+<blockquote>
 
-Data analysis can feel abstract: tools, theory, and terminology often appear before learners have the chance to work through a real question.
+I developed *Estratégias de Análise de Dados* (*Strategies for Data Analysis*), a practical course for people moving into data analysis.
 
-I developed **Estratégias de Análise de Dados** (*Strategies for Data Analysis*), a practical course for people moving into data analysis.
+The course grew from a simple aim: make data analysis less abstract and connect the tools to real questions.
 
-**Role:** Course Creator · Instructor
+[View the course →](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)
 
-**[View the course](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)**
+</blockquote>
 
 </details>
+
+</blockquote>
 
 </details>
 
 <details>
 <summary><strong>Earlier Projects</strong></summary>
 
-<br>
+<blockquote>
 
 <details>
-<summary><strong>Dialog2Rasa</strong></summary>
+<summary>Dialog2Rasa</summary>
+
+<blockquote>
 
 A tool for migrating chatbots from Dialogflow to Rasa.
 
-**[View on GitHub](https://github.com/murilobellatini/dialog2rasa)**
+[View on GitHub →](https://github.com/murilobellatini/dialog2rasa)
+
+</blockquote>
 
 </details>
 
 <details>
-<summary><strong>Smart Poster</strong></summary>
+<summary>Smart Poster</summary>
+
+<blockquote>
 
 A tool for generating social-media posts.
 
-**[View on GitHub](https://github.com/murilobellatini/smart-poster)**
+[View on GitHub →](https://github.com/murilobellatini/smart-poster)
+
+</blockquote>
 
 </details>
 
 <details>
-<summary><strong>SegmentStyler</strong></summary>
+<summary>SegmentStyler</summary>
 
-A 3D styling tool driven by text input, developed at the Technical University of Munich with [Maximilian Winter](https://github.com/MaximilianWinter).
+<blockquote>
 
-**[View on GitHub](https://github.com/MaximilianWinter/SegmentStyler)**
+Text-driven 3D styling, developed at the Technical University of Munich with [Maximilian Winter](https://github.com/MaximilianWinter).
+
+[View on GitHub →](https://github.com/MaximilianWinter/SegmentStyler)
+
+</blockquote>
 
 </details>
 
+</blockquote>
+
 </details>
 
-***
+---
 
 ## Technical Skills
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+<details>
+<summary><strong>Software, Cloud, and Delivery</strong></summary>
+
+<blockquote>
 
 <details>
-<summary>AI platform focus</summary>
+<summary>Language</summary>
 
-- Large language model agents
+<blockquote>
+
+Python
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Cloud and infrastructure</summary>
+
+<blockquote>
+
+- AWS
+- Google Cloud
+- Docker
+- Nginx
+- Cloudflare
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Testing and automation</summary>
+
+<blockquote>
+
+- GitHub Actions
+- Playwright
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>AI Platforms</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>Agents and interoperability</summary>
+
+<blockquote>
+
+- LLM agents
 - Model Context Protocol (MCP)
 - Agent-to-Agent communication (A2A)
 - Skills and tool use
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Retrieval and evaluation</summary>
+
+<blockquote>
+
 - Retrieval-augmented generation (RAG)
 - LLM evaluation
 - Human-in-the-loop workflows
-- Security and compliance
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Governance</summary>
+
+<blockquote>
+
+Security and compliance
+
+</blockquote>
+
+</details>
+
+</blockquote>
 
 </details>
