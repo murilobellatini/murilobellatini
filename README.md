@@ -32,13 +32,13 @@ A few highlights of what I've built
   - [FitGo: Home Fitness App](#fitgo-home-fitness-app)
 
 - **Applied AI research**
-  - [Alma PHIL: Knowledge Graphs from Conversation](#alma-phil-knowledge-graphs-from-conversation)
+  - [Alma PHIL: Conversational Knowledge Graphs](#alma-phil-conversational-knowledge-graphs)
 
-- **Technical influence**
-  - [Teaching](#teaching)
+- **Teaching and knowledge sharing**
+  - [Practical Data Analysis Course](#teaching)
 
-- **Earlier work**
-  - [Dialog2Rasa, Smart Poster, SegmentStyler](#ealier-work)
+- **Earlier Projects**
+  - [Dialog2Rasa, Smart Poster, SegmentStyler](#earlier-projects)
 
 ***
 
@@ -118,7 +118,7 @@ flowchart LR
 
 ***
 
-### Alma PHIL: Knowledge Graphs from Conversation
+### Alma PHIL: Conversational Knowledge Graphs
 
 Conversations contain important context.
 
@@ -144,6 +144,8 @@ Then use it to retrieve the people, places, and topics relevant to the current c
 
 This became my master's thesis at [TU Munich](https://www.tum.de/).
 
+Beyond building, I also teach.
+
 ***
 
 ### Teaching
@@ -161,7 +163,7 @@ So I built a practical course for people moving into data analysis.
 
 ***
 
-### Ealier Work
+### Earlier Project
 
 Before AI-native development became my default, I built tools by hand.
 
