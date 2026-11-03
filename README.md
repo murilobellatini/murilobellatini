@@ -26,7 +26,6 @@ I wrote the idea and the rules, and AI agents wrote the code.
 
 #### Watch the demo
 
-
 <p align="center">
   <video src="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d" controls width="320px" muted playsinline>
     <a href="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d">🎬 Click here to watch</a>
@@ -38,8 +37,28 @@ I wrote the idea and the rules, and AI agents wrote the code.
 
 ---
 
+### Knowledge Graphs from Conversation
+
+During my master’s research at Alma Phil, I built a system that extracts personal relationships from chat conversations and maps them into a knowledge graph.
+
+The goal was to help preserve context and support elderly people living with dementia.
+
+[![Knowledge graph research demo](https://img.youtube.com/vi/K1lbAF3LXgk/0.jpg)](https://www.youtube.com/watch?v=K1lbAF3LXgk)
+
+**Research outcome:** This work became my master’s thesis, graded 1.7 at TU Munich.
+
+---
+
 ### 🛠️ Built by hand, before AI
 
 - [Smart Poster](https://github.com/murilobellatini/smart-poster): makes social media posts for you
 - [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa): moves chatbots from Dialogflow to Rasa
 - [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler): 3D styling from text, built at TU Munich with [Maximilian Winter](https://github.com/MaximilianWinter)
+
+---
+
+### Teaching
+
+I created **Estratégias de Análise de Dados**, a practical course helping people transition into data-analysis work.
+
+[View the course →](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)
