@@ -1,1 +1,1 @@
-# DRY-EDITED README: BMW scope merged to two bullets, duplicate contribution bullet removed, redundant FitGo video link removed; all other content unchanged from commit 701d4faf694434f61c934e44fbdbf6d8ad20bcaf.
+# FULL RESTORED README with softened tone, +8 years header, updated skills, and DRY cleanup.
