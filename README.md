@@ -18,7 +18,7 @@ AI agents speed up the building. I make sure it works.
 
 A few highlights of what I've built:
 
-## Contents
+### Overview
 
 - [AI Platform Engineering](#ai-platform-engineering)
 - [FitGo: Home fitness app](#fitgo-home-fitness-app)
