@@ -3,13 +3,11 @@
 > Software, data, and cloud engineering · 8+ years  
 > M.Sc. Robotics & AI, Technical University of Munich
 
-I build AI platforms that people can actually use.
+I work on AI platforms and the systems around them.
 
-At BMW, I lead the technical direction of an internal platform for building and sharing AI agents.
+At BMW, I contribute to the technical direction of an internal platform for building and sharing AI agents.
 
-I design the architecture, set the quality bar, and own what ships.
-
-AI agents accelerate development. I make sure the result works.
+I work on architecture, quality, and delivery, together with the teams involved.
 
 📍 Munich, Germany  
 🎯 Open to Staff AI Platform Engineer and hands-on Tech Lead roles
@@ -32,30 +30,30 @@ AI agents accelerate development. I make sure the result works.
 
 BMW employees wanted to build their own AI agents, but had no simple or safe way to do so.
 
-We built an internal self-service platform that now serves more than 70,000 users per month.
+An internal self-service platform was built to address this. It is now used by more than 70,000 people each month.
 
-I led the platform technically from concept through company-wide release.
+I contributed to the platform’s technical direction from its early concept through company-wide release.
 
 **Role:** Technical Lead · AI Platform Engineering
 
 <details>
-<summary>Impact</summary>
+<summary>Context and outcomes</summary>
 
-- Delivered the initial platform concept within three months and reached general availability within six.
-- Scaled adoption to more than 70,000 monthly users, with approximately 7,000 daily users.
-- Led a cross-functional team of more than 15 engineers across development, quality assurance, and user experience.
-- Maintained compliance with no reported security or compliance breaches since 2024.
+- The initial platform concept was delivered within three months; general availability followed within six.
+- The platform now serves more than 70,000 monthly users, with approximately 7,000 daily users.
+- I worked with a cross-functional group of more than 15 engineers across development, quality assurance, and user experience.
+- The platform has operated without reported security or compliance breaches since 2024.
 
 </details>
 
 <details>
-<summary>Technical leadership</summary>
+<summary>Areas of contribution</summary>
 
-- Co-designed the branching, testing, and deployment strategy across contributing teams.
-- Introduced user acceptance testing, staged rollouts, and automated Playwright end-to-end checks.
+- Contributed to the branching, testing, and deployment strategy across contributing teams.
+- Helped introduce user acceptance testing, staged rollouts, and automated Playwright end-to-end checks.
 - Built self-service benchmarking for agent builders.
-- Designed a quality-analysis framework for evaluating agent performance.
-- Enabled cross-functional teams through shadowing and reverse shadowing.
+- Contributed to a quality-analysis framework for evaluating agent performance.
+- Supported cross-functional teams through shadowing and reverse shadowing.
 
 </details>
 
@@ -73,18 +71,18 @@ I led the platform technically from concept through company-wide release.
 
 <br>
 
-Fitness applications often introduce unnecessary complexity.
+Fitness applications often introduce more complexity than many users need.
 
-FitGo takes a different approach: one button, press play, follow along.
+FitGo takes a simpler approach: one button, press play, follow along.
 
-I built it as a personal product and as a demonstration of AI-native development. AI agents wrote much of the code, while I owned the product direction, architecture, specifications, review, and quality.
+I built it as a personal project and as a way to explore AI-native development. AI agents wrote much of the code; I handled the product direction, architecture, specifications, review, and quality.
 
 **Role:** Product Owner · Architect · Engineer
 
 **[Open FitGo](https://muriloapps.dpdns.org/fitgo/)**
 
 <details>
-<summary>Product demonstration</summary>
+<summary>Demonstration</summary>
 
 <p>
   <video src="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d" controls width="320px" muted playsinline>
@@ -118,8 +116,8 @@ flowchart LR
 <details>
 <summary>Engineering practices</summary>
 
-- Implemented 34 Playwright end-to-end tests as part of the pre-merge quality gate.
-- Delivered through staged integration and production deployments.
+- Included 34 Playwright end-to-end tests as part of the pre-merge quality gate.
+- Used staged integration and production deployments.
 - Automated smoke and core-test checks before release.
 - Applied opt-in analytics, consent-based feedback, retention controls, and scheduled data purges.
 
@@ -139,16 +137,16 @@ flowchart LR
 
 <br>
 
-Conversations contain important context: the people involved, where they live, and what matters to them. Chatbots, however, typically do not retain this context.
+Conversations contain context that is easy to lose: the people involved, where they live, and what matters to them. Chatbots, however, typically do not retain this context.
 
-For my master’s research at [Alma PHIL](https://almaphil.de/), I investigated whether conversations could be transformed into a personal knowledge graph and used to retrieve the people, places, and topics relevant to the current conversation.
+For my master’s research at [Alma PHIL](https://almaphil.de/), I explored whether conversations could be represented as a personal knowledge graph and used to retrieve relevant people, places, and topics.
 
 This work became my master’s thesis at the [Technical University of Munich](https://www.tum.de/).
 
 **Role:** Researcher · Machine Learning Engineer
 
 <details>
-<summary>Research approach</summary>
+<summary>Approach</summary>
 
 - Trained machine-learning models to extract relationships from conversations.
 - Constructed a knowledge graph from the extracted entities and relationships.
@@ -160,8 +158,8 @@ This work became my master’s thesis at the [Technical University of Munich](ht
 <summary>Evaluation and limitations</summary>
 
 - Evaluated relationship extraction using precision, recall, and F1 score.
-- Identified a key limitation: publicly available training data did not closely match real healthcare conversations.
-- Used the findings to define the scope and limitations of the approach.
+- A key limitation was that publicly available training data did not closely match real healthcare conversations.
+- These findings informed the scope and limitations of the approach.
 
 </details>
 
@@ -189,9 +187,9 @@ This work became my master’s thesis at the [Technical University of Munich](ht
 
 <br>
 
-Data analysis can feel abstract: tools, theory, and terminology often appear before learners have the opportunity to answer a real question.
+Data analysis can feel abstract: tools, theory, and terminology often appear before learners have the chance to work through a real question.
 
-I developed **Estratégias de Análise de Dados** (*Strategies for Data Analysis*), a practical course for people transitioning into data analysis.
+I developed **Estratégias de Análise de Dados** (*Strategies for Data Analysis*), a practical course for people moving into data analysis.
 
 **Role:** Course Creator · Instructor
 
