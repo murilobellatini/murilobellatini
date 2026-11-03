@@ -23,15 +23,21 @@ I make sure it works.
 
 ## My Portfolio
 
-A few highlights of what I've built:
+A few highlights of what I've built
 
-### Overview
-
+### Enterprise AI platforms
 - [BMW: AI Platform Engineering](#bmw-ai-platform-engineering)
+
+### AI-native product ownership
 - [FitGo: Home Fitness App](#fitgo-home-fitness-app)
+
+### Applied AI & evaluation
 - [Alma PHIL: Knowledge Graphs from Conversation](#alma-phil-knowledge-graphs-from-conversation)
-- [Built by hand, before AI](#built-by-hand-before-ai)
+
+### Technical influence
 - [Teaching](#teaching)
+
+***
 
 ### BMW: AI Platform Engineering
 
@@ -107,6 +113,8 @@ flowchart LR
 
 </details>
 
+***
+
 ### Alma PHIL: Knowledge Graphs from Conversation
 
 Conversations contain important context.
@@ -135,14 +143,6 @@ This became my master's thesis at [TU Munich](https://www.tum.de/).
 
 ***
 
-### Built by hand, before AI
-
-- [Smart Poster](https://github.com/murilobellatini/smart-poster): generates social media posts for you
-- [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa): moves chatbots from Dialogflow to Rasa
-- [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler): 3D styling from text, built at TU Munich with [Maximilian Winter](https://github.com/MaximilianWinter)
-
-***
-
 ### Teaching
 
 Data analysis can feel abstract.
@@ -155,3 +155,13 @@ So I built a practical course for people moving into data analysis.
 *(Strategies for Data Analysis)*
 
 [View the course →](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)
+
+***
+
+### Ealier Work
+
+Before AI-native development became my default, I built tools by hand.
+
+- [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa): moves chatbots from Dialogflow to Rasa
+- [Smart Poster](https://github.com/murilobellatini/smart-poster): generates social media posts for you
+- [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler): 3D styling from text, built at TU Munich with [Maximilian Winter](https://github.com/MaximilianWinter)
