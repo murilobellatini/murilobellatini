@@ -21,7 +21,7 @@ A few highlights of what I've built:
 ### Overview
 
 - [BMW: AI Platform Engineering](#bmw-ai-platform-engineering)
-- [FitGo: Home fitness app](#fitgo-home-fitness-app)
+- [FitGo: Home Fitness App](#fitgo-home-fitness-app)
 - [Alma PHIL: Knowledge Graphs from Conversation](#alpha-phil-knowledge-graphs-from-conversation)
 - [Built by hand, before AI](#built-by-hand-before-ai)
 - [Teaching](#teaching)
@@ -45,7 +45,7 @@ I focus on platform architecture, implementation design, and safe, staged releas
 
 ***
 
-### FitGo: Home fitness app
+### FitGo: Home Fitness App
 
 A home fitness app with one button.
 
