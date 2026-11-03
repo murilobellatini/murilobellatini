@@ -443,18 +443,6 @@ Text-driven 3D styling, developed at the Technical University of Munich with [Ma
 - GraphRAG
 - LLM evaluation
 - Human-in-the-loop workflows
-
-</blockquote>
-
-</details>
-
-<details>
-<summary>Safety and multimodality</summary>
-
-<blockquote>
-
-- Moderation and guardrails
-- OWASP LLM security
 - Multimodal AI
 
 </blockquote>
@@ -462,12 +450,17 @@ Text-driven 3D styling, developed at the Technical University of Munich with [Ma
 </details>
 
 <details>
-<summary>Governance</summary>
+<summary>Safety & governance</summary>
 
 <blockquote>
 
-Security and compliance
+- Moderation and guardrails
+- OWASP LLM security
+- Security and compliance
 
+</blockquote>
+
+</details>
 </blockquote>
 
 </details>
