@@ -28,7 +28,7 @@ A few highlights of what I've built
 - **Enterprise AI platforms**
   - [BMW: AI Platform Engineering](#bmw-ai-platform-engineering)
 
-- **AI-native product ownership**
+- **AI-native product delivery**
   - [FitGo: Home Fitness App](#fitgo-home-fitness-app)
 
 - **Applied AI research**
