@@ -11,8 +11,6 @@ I design the architecture.
 I set the quality bar.  
 I own what ships.
 
-Used by 70,000+ employees.
-
 AI agents speed up the building.  
 I make sure it works.
 
