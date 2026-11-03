@@ -38,7 +38,7 @@ I focus on platform architecture, implementation design, and safe, staged releas
 - Co-designed branching, testing, and deployment strategy across teams.
 - Introduced UAT, staged rollouts, and automated Playwright E2E checks.
 - Built self-service benchmarking for agent builders.
-- Ran cost and quality analysis for high-volume model usage.
+- Designed quality analysis framework for agent performance.
 - Enabled cross-functional teams through shadowing and reverse shadowing.
 
 </details>
