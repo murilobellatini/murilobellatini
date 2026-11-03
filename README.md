@@ -55,8 +55,17 @@ Today, 70,000+ people use it every month.
 I led it technically from concept to company-wide release.
 
 <details>
-<summary><strong>How I work</strong></summary>
+<summary><strong>Impact in numbers</strong></summary>
 
+- Concept to alpha in 3 months, general availability in 6.
+- 70k+ monthly users, about 7k daily.
+- Technical lead for 15+ engineers across Dev, QA, and UX.
+- No compliance breaches since 2024.
+
+</details>
+
+<details>
+<summary><strong>How I work</strong></summary>
 
 - Co-designed branching, testing, and deployment strategy across teams.
 - Introduced UAT, staged rollouts, and automated Playwright E2E checks.
@@ -95,7 +104,6 @@ Built for myself. A showcase of AI-native development:
 <details>
 <summary><strong>Technical details</strong></summary>
 
-
 ```mermaid
 flowchart LR
     U[User] --> CF[Cloudflare]
@@ -133,14 +141,19 @@ Turn conversations into a personal knowledge graph.
 Then use it to retrieve the people, places, and topics relevant to the current conversation.
 
 <a href="https://youtu.be/K1lbAF3LXgk">
-  <a href="https://youtu.be/K1lbAF3LXgk">🎬 Watch the demo on YouTube</a>
-  <img src="https://img.youtube.com/vi/K1lbAF3LXgk/hqdefault.jpg" alt="Alma PHIL demo video" width="480">
+  <img src="https://img.youtube.com/vi/K1lbAF3LXgk/hqdefault.jpg" alt="Alma PHIL demo video" width="480"><br>
+  🎬 Watch the demo on YouTube
 </a>
+
+<details>
+<summary><strong>What I did</strong></summary>
 
 - Trained AI models to extract relationships from conversations
 - Built a knowledge graph from the extracted entities and relationships
 - Evaluated relationship extraction with precision, recall, and F1
 - Limitation: the public training data did not match real healthcare conversations
+
+</details>
 
 This became my master's thesis at [TU Munich](https://www.tum.de/).
 
@@ -167,9 +180,14 @@ So I built a practical course for people moving into data analysis.
 
 Before AI-native development became my default, I built tools by hand.
 
+<details>
+<summary><strong>See the projects</strong></summary>
+
 - [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa): moves chatbots from Dialogflow to Rasa
 - [Smart Poster](https://github.com/murilobellatini/smart-poster): generates social media posts for you
 - [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler): 3D styling from text, built at TU Munich with [Maximilian Winter](https://github.com/MaximilianWinter)
+
+</details>
 
 ***
 
@@ -184,4 +202,9 @@ Before AI-native development became my default, I built tools by hand.
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-> **AI platform focus:** LLM agents · MCP · A2A · Skills · RAG · LLM evaluation · human-in-the-loop · security & compliance
+<details>
+<summary><strong>AI platform focus</strong></summary>
+
+LLM agents · MCP · A2A · Skills · RAG · LLM evaluation · human-in-the-loop · security & compliance
+
+</details>
