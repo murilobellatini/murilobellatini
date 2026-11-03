@@ -1,14 +1,21 @@
 # Hi, I'm Murilo
 
-> 8+ years in software engineering, data and cloud · M.Sc. Robotics & AI, TU Munich
+> 8+ years in software, data, and cloud  
+> M.Sc. Robotics & AI, TU Munich
 
-I'm an AI Platform Engineer and Tech Lead on BMW's internal AI Assistant, where over 70,000 people each month build their own AI agents.
+I build AI platforms people can actually use.
 
-I design the architecture, set the quality bar, and own what ships.
+At BMW, I lead the technical direction of an internal platform for building and sharing AI agents.
 
-AI agents speed up the building. I make sure it works.
+I design the architecture.  
+I set the quality bar.  
+I own what ships.
 
-📍 Munich · 🎯 Open to Staff AI Platform Engineer and hands-on Tech Lead roles
+AI agents speed up the building.  
+I make sure it works.
+
+📍 Munich  
+🎯 Open to Staff AI Platform Engineer and hands-on Tech Lead roles
 
 [About Me](https://muriloapps.dpdns.org/me/d) · [CV](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn](https://www.linkedin.com/in/mbellatini/)
 
@@ -28,12 +35,19 @@ A few highlights of what I've built:
 
 ### BMW: AI Platform Engineering
 
-At BMW, I lead the technical direction of an internal AI platform where BMW employees build their own AI agents.
+BMW employees wanted to build their own AI agents.
 
-I focus on platform architecture, implementation design, and safe, staged releases.
+Most had no easy, safe way to do it.
+
+So we built an internal self-service platform.
+
+Today, 70,000+ people use it every month.
+
+I led it technically from concept to company-wide release.
 
 <details>
 <summary><strong>How I work</strong></summary>
+
 
 - Co-designed branching, testing, and deployment strategy across teams.
 - Introduced UAT, staged rollouts, and automated Playwright E2E checks.
@@ -47,13 +61,17 @@ I focus on platform architecture, implementation design, and safe, staged releas
 
 ### FitGo: Home Fitness App
 
-A home fitness app with one button.
+Fitness apps got too complicated.
 
-Press play and it shows you what to do, keeps you motivated, and takes the guesswork out of getting fit.
+So I built my own.
 
-I designed the product, the rules, and the architecture.
+One button. Press play. Follow along.
 
-AI agents wrote much of the code with strong review and testing.
+Built for myself. A showcase of AI-native development:
+
+- AI agents wrote much of the code
+- I owned product, architecture, specs, review, and quality
+- Now entering validation with real users
 
 #### Watch the demo
 
@@ -67,6 +85,7 @@ AI agents wrote much of the code with strong review and testing.
 
 <details>
 <summary><strong>Technical details</strong></summary>
+
 
 ```mermaid
 flowchart LR
@@ -90,20 +109,29 @@ flowchart LR
 
 ### Alma PHIL: Knowledge Graphs from Conversation
 
-For my master's research at [Alma PHIL](https://almaphil.de/), I built a system that turns chat conversations into a knowledge graph of personal relationships.
+Conversations contain important context.
 
-Goal: help people living with dementia stay connected to important people, places, and memories by retrieving relevant context from a personal knowledge graph.
+Who matters. Where they live. What they care about.
+
+But chatbots usually forget it.
+
+For my master’s research at [Alma PHIL](https://almaphil.de/), I explored a different approach:
+
+Turn conversations into a personal knowledge graph.
+
+Then use it to retrieve the people, places, and topics relevant to the current conversation.
 
 <a href="https://youtu.be/K1lbAF3LXgk">
   <a href="https://youtu.be/K1lbAF3LXgk">🎬 Watch the demo on YouTube</a>
   <img src="https://img.youtube.com/vi/K1lbAF3LXgk/hqdefault.jpg" alt="Alma PHIL demo video" width="480">
 </a>
 
-- **Approach:** train AI models to construct the graph based on the conversation using public datasets
-- **Evaluation:** evaluated relationship extraction with precision, recall, and F1
-- **Limits:** quality for productive delivery, due to data mismatch between health care conversation and the one used for testing [DialogRE](https://dataset.org/dialogre/)
+- Trained AI models to extract relationships from conversations
+- Built a knowledge graph from the extracted entities and relationships
+- Evaluated relationship extraction with precision, recall, and F1
+- Found a key limitation: the public training data did not match real healthcare conversations
 
-This became my master's thesis at TU Munich.
+This became my master's thesis at [TU Munich](https://www.tum.de/).
 
 ***
 
@@ -117,8 +145,13 @@ This became my master's thesis at TU Munich.
 
 ### Teaching
 
-I also teach.
+Data analysis can feel abstract.
 
-**Estratégias de Análise de Dados** (Strategies for Data Analysis) is a practical course for people moving into data analysis.
+Tools, theory, and buzzwords—before you ever answer a real question.
+
+So I built a practical course for people moving into data analysis.
+
+**Estratégias de Análise de Dados**  
+*(Strategies for Data Analysis)*
 
 [View the course →](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)
