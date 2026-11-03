@@ -378,7 +378,8 @@ Text-driven 3D styling, developed at the Technical University of Munich with [Ma
 
 <blockquote>
 
-Python
+- Python
+- JavaScript
 
 </blockquote>
 
@@ -394,6 +395,8 @@ Python
 - Docker
 - Nginx
 - Cloudflare
+- Terraform
+- Floci (local cloud emulation)
 
 </blockquote>
 
@@ -440,8 +443,22 @@ Python
 <blockquote>
 
 - Retrieval-augmented generation (RAG)
+- GraphRAG
 - LLM evaluation
 - Human-in-the-loop workflows
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Safety and multimodality</summary>
+
+<blockquote>
+
+- Moderation and guardrails
+- OWASP LLM security
+- Multimodal AI
 
 </blockquote>
 
