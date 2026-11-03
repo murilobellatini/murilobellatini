@@ -38,9 +38,7 @@ A few highlights of what I've built
   - [Teaching](#teaching)
 
 - **Earlier work**
-  - [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa)
-  - [Smart Poster](https://github.com/murilobellatini/smart-poster)
-  - [SegmentStyler](https://github.com/MaximilianWinter/SegmentStyler)
+  - [Dialog2Rasa, Smart Poster, SegmentStyler](#ealier-work)
 
 ***
 
