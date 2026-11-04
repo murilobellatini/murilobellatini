@@ -9,7 +9,7 @@ At BMW, I help shape the technical direction of an internal platform for buildin
 
 Based in Munich, Germany.
 
-[About Me ↗](https://muriloapps.dpdns.org/me/d) · [CV ↗](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn ↗](https://www.linkedin.com/in/mbellatini/)
+[About Me ↗](https://muriloapps.dpdns.org/me) · [CV ↗](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn ↗](https://www.linkedin.com/in/mbellatini/)
 
 ---
 
