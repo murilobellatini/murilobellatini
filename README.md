@@ -146,9 +146,6 @@ The application is now entering validation with real users.
 <details>
 <summary>Mermaid code</summary>
 
-</details>
-
-
 ```mermaid
 flowchart TD
     U[User] --> CF[Cloudflare]
@@ -162,6 +159,8 @@ flowchart TD
     BE --- SD[(Server data)]
     BE -. Newsletter email .-> BR[Brevo]
 ```
+
+</details>
 
 </blockquote>
 
