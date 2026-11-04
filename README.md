@@ -3,13 +3,13 @@
 > +8 years · Software, data, and cloud engineering  
 > M.Sc. Robotics & AI, Technical University of Munich
 
-I work on AI platforms and the systems around them.
+I help companies get AI agents to work.
 
-At BMW, I help shape the technical direction of an internal platform for building and sharing AI agents, working with teams across architecture, quality, and delivery.
+At BMW, I am technical lead for the generative AI agent platform. Employees build and run their own AI agents on it.
 
 Based in Munich, Germany.
 
-[About Me ↗](https://muriloapps.dpdns.org/me) · [CV ↗](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn ↗](https://www.linkedin.com/in/mbellatini/)
+[About Me ↗](https://muriloapps.dpdns.org/me/) · [CV ↗](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn ↗](https://www.linkedin.com/in/mbellatini/)
 
 ---
 
@@ -31,7 +31,9 @@ BMW employees needed an accessible, safe way to build their own AI agents.
 
 We built an internal self-service platform that is now used by more than 70,000 people each month.
 
-I contributed to the technical direction from concept through company-wide release.
+First test version after 3 months, company-wide launch after 6.
+
+I own the platform core and co-designed the delivery process. 5+ teams ship on it.
 
 <details>
 <summary>Scope and outcomes</summary>
@@ -114,7 +116,7 @@ AI agents wrote much of the code. I focused on product direction, architecture, 
 
 The application is now entering validation with real users.
 
-[Open FitGo ↗](https://muriloapps.dpdns.org/fitgo/)
+[Open FitGo ↗](https://muriloapps.dpdns.org/fitgo/) · [Architecture ↗](fitgo.md) (the code is closed source)
 
 <details>
 <summary>Product Pitch</summary>
