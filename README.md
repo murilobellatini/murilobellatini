@@ -9,11 +9,13 @@ At BMW, I help shape the technical direction of an internal platform for buildin
 
 Based in Munich, Germany.
 
-[About Me](https://muriloapps.dpdns.org/me/d) · [CV](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn](https://www.linkedin.com/in/mbellatini/)
+[About Me ↗](https://muriloapps.dpdns.org/me/d) · [CV ↗](https://muriloapps.dpdns.org/me/cv.pdf) · [LinkedIn ↗](https://www.linkedin.com/in/mbellatini/)
 
 ---
 
 ## Portfolio
+
+> Click on the rows to expand or collapse.
 
 <details open>
 <summary><strong>Enterprise AI Platforms</strong></summary>
@@ -112,16 +114,16 @@ AI agents wrote much of the code. I focused on product direction, architecture, 
 
 The application is now entering validation with real users.
 
-[Open FitGo →](https://muriloapps.dpdns.org/fitgo/)
+[Open FitGo ↗](https://muriloapps.dpdns.org/fitgo/)
 
 <details>
-<summary>Product demonstration</summary>
+<summary>Product Pitch</summary>
 
 <blockquote>
 
 <p>
   <video src="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d" controls width="320" muted playsinline>
-    <a href="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d">Watch the demonstration</a>
+    <a href="https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d">Watch the pich ↗</a>
   </video>
 </p>
 
@@ -222,9 +224,9 @@ flowchart LR
 
 Conversations contain personal context: people, places, and the things that matter to them.
 
-For my master’s research at [Alma PHIL](https://almaphil.de/), I explored how to represent that context as a personal knowledge graph and retrieve information relevant to the current conversation.
+For my master’s research at [Alma PHIL ↗](https://almaphil.de/), I explored how to represent that context as a personal knowledge graph and retrieve information relevant to the current conversation.
 
-This work became my master’s thesis at the [Technical University of Munich](https://www.tum.de/).
+This work became my master’s thesis at the [Technical University of Munich ↗](https://www.tum.de/).
 
 <details>
 <summary>Research and evaluation</summary>
@@ -275,7 +277,7 @@ The public training data did not closely match real healthcare conversations, li
 
 <blockquote>
 
-[Watch the demonstration on YouTube →](https://youtu.be/K1lbAF3LXgk)
+[Watch the demonstration on YouTube ↗](https://youtu.be/K1lbAF3LXgk)
 
 </blockquote>
 
@@ -303,7 +305,7 @@ I created *Estratégias de Análise de Dados* (*Strategies for Data Analysis*), 
 
 The course grew from a simple aim: make data analysis less abstract and connect the tools to real questions.
 
-[View the course →](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)
+[View the course ↗](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)
 
 </blockquote>
 
@@ -325,7 +327,7 @@ The course grew from a simple aim: make data analysis less abstract and connect 
 
 A tool for migrating chatbots from Dialogflow to Rasa.
 
-[View on GitHub →](https://github.com/murilobellatini/dialog2rasa)
+[View on GitHub ↗](https://github.com/murilobellatini/dialog2rasa)
 
 </blockquote>
 
@@ -338,7 +340,7 @@ A tool for migrating chatbots from Dialogflow to Rasa.
 
 A tool for generating social-media posts.
 
-[View on GitHub →](https://github.com/murilobellatini/smart-poster)
+[View on GitHub ↗](https://github.com/murilobellatini/smart-poster)
 
 </blockquote>
 
@@ -351,7 +353,7 @@ A tool for generating social-media posts.
 
 Text-driven 3D styling, developed at the Technical University of Munich with [Maximilian Winter](https://github.com/MaximilianWinter).
 
-[View on GitHub →](https://github.com/MaximilianWinter/SegmentStyler)
+[View on GitHub ↗](https://github.com/MaximilianWinter/SegmentStyler)
 
 </blockquote>
 
