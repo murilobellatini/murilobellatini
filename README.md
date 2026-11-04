@@ -141,21 +141,27 @@ The application is now entering validation with real users.
 
 <blockquote>
 
+[![](https://mermaid.ink/img/pako:eNptUs1u2zAMfhWBpw2zjcRxms4YCtROHOSwtljWHWbnoNqMLVQWA0ZukgZ592mut_Uw6iLy-yEl8AwlVQgxbDUdykayFd_nhREuHvPHPfJG-P6NSLM81dRVWy0ZN294mvVQtsgzJmPRVF-e-CZTdknigE9C7nZaldIqMoMiW_SKZJEnsnweBHe1MkfxSTycbENG3D6sHPsfPxBLolqjWKva-CsjAuewvM-H6v1tZ5vBPunpP5DV9iRWc2HJ9Rj47y19X6Tz_EPCdHAPFJW08uM7CwevHbxGfvkPGog7POw1WutAbKXSfYfkW54wvtAGPKhZVRBb7tCDFtlxXArn3x4F2AZbLCB2V8aqO_qV5Ge_JE1cQGEuTr-T5idR-8eCqasbiLdS713W7dxEOFeyZtn-rbL7TOSUOmMhDiej3gTiMxwh9kfByMV4El3P3Imi2edRFIahByeIp8HU1aOr8fV4MruKpiH6s4sHr31_02ntAVbKEn99W5N-Wy6_AAXcrN0?type=png)](https://mermaid.live/edit#pako:eNptUs1u2zAMfhWBpw2zjcR1mtYYCtROHOSwtljaHWbnoNqMLVQWA0ZukgV592muu_Uw6iLy-yEl8AQlVQgxbDTty0ayFY-zwggXT_nTDnktfP9GpFmeauqqjZaM6zc8zXoom-cZk7Foqq_PfJMpuyCxx2cht1utSmkVmUGRzXtFMs8TWb4MgrtamYP4Ih6OtiEjbh-Wjv2PH4gFUa1RrFRt_KURgXNY3OdD9f62s81gn_T0H8hqcxTLmbDkegz8j5a-L9JZ_ilh2rsHikpa-fmDhYNXDl4hv_4HDcQd7ncarXUgtlLpvkPyPU8YX2kNHtSsKogtd-hBi-w4LoXTH48CbIMtFhC7K2PVHfxK8otfkiYuoDBnp99K85Oofbdg6uoG4o3UO5d1WzcRzpSsWbZ_q-w-EzmlzliIw_C6N4H4BAeI_VEwcjG-iK6m7kTR9HoUhWHowRHiSTBx9ehyfDW-mF5GkxD96dmDX31_02ntAVbKEn97W5N-W86_AQjbrOU)
+
+<details>
+<summary>Mermaid code</summary>
+
+</details>
+
+
 ```mermaid
-flowchart LR
+flowchart TD
     U[User] --> CF[Cloudflare]
     CF --> FE[Frontend<br>FitGo web application]
     FE --> BE[Backend<br>Nginx + Python API]
 
     FE -. Google Sign-In .-> GO[Google OAuth]
+    BE -. Verify ID token .-> GO
+
     FE --- CD[(Browser data)]
     BE --- SD[(Server data)]
-    BE -. Email .-> BR[Brevo]
+    BE -. Newsletter email .-> BR[Brevo]
 ```
-
-- Cloudflare edge with a web frontend.
-- Python API behind Nginx, hosted on a Raspberry Pi.
-- Browser-based and server-side data storage.
 
 </blockquote>
 
