@@ -368,7 +368,7 @@ The public training data did not closely match real healthcare conversations, li
 
 <blockquote>
 
-[Watch the demonstration on YouTube ↗](https://youtu.be/K1lbAF3LXgk)
+[Watch the demonstration on YouTube ↗](https://youtu.be/K1lbAF3LXgk) · [Code: RelNetCare ↗](https://github.com/murilobellatini/RelNetCare)
 
 </blockquote>
 
