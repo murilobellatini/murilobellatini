@@ -26,13 +26,13 @@ The source code is closed. This page shows how it is built.
 
 ```mermaid
 flowchart TD
-    ME["Me<br>(Phone and code server)"] --> AG["AI agents<br>(Inside guardrails)"]
+    ME["Me<br>(Phone with Google sign-in, code server)"] --> AG["AI agents<br>(Inside guardrails)"]
     AG --> T["Automatic tests<br>(Real-user journeys, on every change)"]
     T -- Pass --> PR["Demo and pull request<br>(I try it myself)"]
     T -. Fail .-> AG
-    PR --> OK[I approve]
-    OK -. Changes needed .-> AG
-    OK --> LIVE[Live]
+    PR --> OK{"Do I approve?"}
+    OK -- Yes --> LIVE[Live]
+    OK -. Not yet .-> AG
 
     PI["Raspberry Pi<br>(Self-heals)"] -.-> AG
 
@@ -62,7 +62,7 @@ flowchart TD
 
 <blockquote>
 
-- Phone: daily commands, pause and resume.
+- Phone: daily commands, pause and resume. Behind Google sign-in, so only I can reach it.
 - Code server: deep dev work in the browser.
 
 </blockquote>
