@@ -1,18 +1,26 @@
 # AI agents on a Raspberry Pi: architecture
 
-A small home server where AI agents build and run my apps.
-One Raspberry Pi, 8 GB of memory.
+Agents are only useful if you can trust them.
+
+I run a small home server where AI agents build and run my apps. One Raspberry Pi, 8 GB of memory.
+
+I built the safety first: limits, a stop button, and tests before every change.
 
 The source code is closed. This page shows how it is built.
 
-[Back to profile](README.md) · [FitGo](fitgo.md)
+[Back to profile](README.md)
 
-## Why
+> Click on the rows to expand or collapse.
 
-Agents are only useful if you can trust them.
-So I built the safety first: limits, a stop button, tests before every change.
+<details open>
+<summary><strong>Architecture</strong></summary>
 
-## Overview
+<blockquote>
+
+<details>
+<summary>Overview</summary>
+
+<blockquote>
 
 ```mermaid
 flowchart TD
@@ -30,42 +38,107 @@ flowchart TD
     BOOT[Boot restore] -. reopens sessions .-> AG
 ```
 
-## Control
+</blockquote>
+
+</details>
+
+<details>
+<summary>Control</summary>
+
+<blockquote>
 
 - One phone page lists every running agent.
-- I can pause or resume one agent, or all of them.
+- Pause or resume one agent, or all of them.
 - Each agent shows its state, its last request and what it is doing now.
 - Scheduled tasks start agents on a timer, each in its own copy of the code.
 
-## Safety
+</blockquote>
 
-- Heat, load and memory limits. The phone alerts me, and I can pause all agents.
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>Safety and self-repair</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>Safety</summary>
+
+<blockquote>
+
+- Heat, load and memory limits. The phone alerts me.
+- Google login on everything public. Admin actions need a PIN.
 - Paid services are never called in tests.
-- Login with Google on everything public. Admin actions need a PIN.
 - No outside messages without my approval.
 
-## Self-repair
+</blockquote>
+
+</details>
+
+<details>
+<summary>Self-repair</summary>
+
+<blockquote>
 
 - Open agent sessions are saved every minute and reopened after a restart.
-- A watchdog checks the services and restarts what is down.
+- A watchdog restarts what is down.
 - Restarts are capped. After that I get a red alert.
-- A rebuild kit can set the Pi up again from scratch. Its test checks it against the live machine.
+- A rebuild kit sets the Pi up again from scratch. Its test checks it against the live machine.
 
-## Quality
+</blockquote>
 
-- Git hooks run all tests before a change is merged.
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>Quality and delivery</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>Testing</summary>
+
+<blockquote>
+
+- Git hooks run all tests before every merge.
 - Playwright tests walk through each app like a user.
-- A merge queue lets one change merge at a time, on top of the latest code.
-- Staged releases: test site first, live site after my approval.
 
-## What runs on it
+</blockquote>
 
-- FitGo, a home fitness app.
-- JobPilot, a CV tuner for job postings.
-- A sprint planner, a to-do app and a status page.
+</details>
 
-## How it was built
+<details>
+<summary>Deployment</summary>
 
-- Agents wrote much of the code.
+<blockquote>
+
+- A merge queue merges one change at a time, on top of the latest code.
+- Test site first, live site after my approval.
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>How it was built</strong></summary>
+
+<blockquote>
+
+- AI agents wrote much of the code.
 - I set the direction, the rules and the specifications.
 - I review the result and own the quality.
+
+</blockquote>
+
+</details>

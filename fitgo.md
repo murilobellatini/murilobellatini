@@ -16,7 +16,7 @@ AI agents wrote much of the code. I set the product direction, architecture and 
 
 It is now being tested with real users.
 
-[Watch the pitch ↗](https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d) · [The agents behind it](agents.md)
+[Watch the pitch ↗](https://github.com/user-attachments/assets/47fb315b-e386-4b86-aff1-ef136eb6063d)
 
 ## Overview
 

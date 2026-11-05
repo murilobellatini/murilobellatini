@@ -110,7 +110,7 @@ Supported cross-functional teams through shadowing and reverse shadowing.
 
 Agents are only useful if you can trust them.
 
-I run a small home server where AI agents build and run my apps, including FitGo.
+I run a small home server where AI agents build and run my apps, including my apps.
 
 I built the safety first: limits, a stop button, and tests before every change.
 
