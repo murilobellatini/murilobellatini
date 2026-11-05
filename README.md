@@ -110,9 +110,9 @@ Supported cross-functional teams through shadowing and reverse shadowing.
 
 Agents are only useful if you can trust them.
 
-I run a small home server where AI agents build and run my apps, including my apps.
+I run a small home server where AI agents build and run my apps.
 
-I built the safety first: limits, a stop button, and tests before every change.
+They work inside a harness with guardrails, and send me a demo and a pull request. I approve. I move fast and stay safe.
 
 [Architecture ↗](agents.md) (the code is closed source)
 
@@ -126,34 +126,27 @@ I built the safety first: limits, a stop button, and tests before every change.
 
 <blockquote>
 
-[![](https://mermaid.ink/img/pako:eNpdU11vmzAU_StX5NWp1iXLUjpViojCIrUZyhLlgfXhAheCZmxkm3So6n-vzUfUzk-Ye84953741UtlRp7v5Vy-pGdUBg7rPwLsOcZP9CNRD78EVC3UZynoGabTBwg2ccBlk-UcVYcIpSw4gS4LMS3Fc08PNh14F8a7ohT_OhwaesF2AOzCPlsUB1IYJTnUWHT5fhMxe2k0AYoMFOmmsp8FCaPH7FFHXoXxajtEHDPg2GQEga0JNGldSjEyVr1cuD3EYWkc-EDaaEgol4qALqRaqEgVNBAssteIonhV13qk2DqN9WfOJICXF2ssN6Rcj7Culbwgtwn6FLpJCoX1GcJ9HDaoMoUlHw2587h9ih_Lquzd_yQ0DLjErKu7okqq9gP6tI5PaNJzJgsH31szbmAOOxTremVsOQOJRDZasUowvYHIdVXDTde7PnJau8CeaizV58jIcaMH5GS1XPg45kw5ar2mHCosBeQl5_7klr7ezRKm7UD_kj-5m-MsWbJUcqn8Sb7MMU_v_2NrzGlgf8m_LxZ0ZX8jwmx-ZXfnIxuOLNiwXciCiK1CZifG7LQ6O59gthBmy3RCw39tWrux4b7XNQqFru02C3PVvp0nS1wM12mG2j4Oha0_h9loqIfce8yze2NFM89_9exeVO5BZZRjw4339vYOsNoVUw==?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNpdU11vmzAU_StX5NWp1iXLUjpViojCIrUZyhLlgfXhAheCZmxkm3So6n-vzUfUzk-Ye84953741UtlRp7v5Vy-pGdUBg7rPwLsOcZP9CNRD78EVC3UZynoGabTBwg2ccBlk-UcVYcIpSw4gS4LMS3Fc08PNh14F8a7ohT_OhwaesF2AOzCPlsUB1IYJTnUWHT5fhMxe2k0AYoMFOmmsp8FCaPH7FFHXoXxajtEHDPg2GQEga0JNGldSjEyVr1cuD3EYWkc-EDaaEgol4qALqRaqEgVNBAssteIonhV13qk2DqN9WfOJICXF2ssN6Rcj7Culbwgtwn6FLpJCoX1GcJ9HDaoMoUlHw2587h9ih_Lquzd_yQ0DLjErKu7okqq9gP6tI5PaNJzJgsH31szbmAOOxTremVsOQOJRDZasUowvYHIdVXDTde7PnJau8CeaizV58jIcaMH5GS1XPg45kw5ar2mHCosBeQl5_7klr7ezRKm7UD_kj-5m-MsWbJUcqn8Sb7MMU_v_2NrzGlgf8m_LxZ0ZX8jwmx-ZXfnIxuOLNiwXciCiK1CZifG7LQ6O59gthBmy3RCw39tWrux4b7XNQqFru02C3PVvp0nS1wM12mG2j4Oha0_h9loqIfce8yze2NFM89_9exeVO5BZZRjw4339vYOsNoVUw==)
+[![](https://mermaid.ink/img/pako:eNp1ktFvmzAQxv-VE3klVbekXUOnSmipIpRURVm0PbA-GDiDF2Mz2yRCVf_3nYFFaqX5gQc-_767-3yvQaFLDKKAS30uamYcHNa_FNB5esye8GtuHtJaKwSuDZRMyB4K3TRMldZr34gGi-aEZryB2NLnBGdtji8wnz9AvMniBFiFyg3IT1JAKCuIZEAlFVoLZ-FqqDpmSkNF7MvYQ7wZLA5ZanDeoKkQHNrRZ6dVBalk_dmIqnbwW3dk1Q9aXDiQ4ugLGGQSOmpxsjwMjuk-W2OjgeaAtpOSrv3pyNnD36lTcBoahLwHVyPEyQSn-4F-3mY0UdsafcJJed4Oyi758ZjtxGnMy5f1o0xwku2ZbXM0podUjKUkn9fUIQVQowLhwHTKQq0dhXcFW4rT-l9K0LBXQ5r_7ArJrF0jB_90wIWU0ewTfl4t8tA6o48YzVZLtsjvwkJLbaIZv-OMF_cf6Io5nOhr_uX2Fi_0DSIrlxd6OB_pVkxsvrxZXK8uLC_KxbL8P0vbFcab0Mc19P9OO4TpPqRAfWvvhDShgvdBGNAqNEyUQfQa0Ps0foFL5KyTLnh7-ws5yO0G?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNp1ktFvmzAQxv-VE3klVbekXUOnSmipIpRURVm0PbA-GDiDF2Mz2yRCVf_3nYFFaqX5gQc-_767-3yvQaFLDKKAS30uamYcHNa_FNB5esye8GtuHtJaKwSuDZRMyB4K3TRMldZr34gGi-aEZryB2NLnBGdtji8wnz9AvMniBFiFyg3IT1JAKCuIZEAlFVoLZ-FqqDpmSkNF7MvYQ7wZLA5ZanDeoKkQHNrRZ6dVBalk_dmIqnbwW3dk1Q9aXDiQ4ugLGGQSOmpxsjwMjuk-W2OjgeaAtpOSrv3pyNnD36lTcBoahLwHVyPEyQSn-4F-3mY0UdsafcJJed4Oyi758ZjtxGnMy5f1o0xwku2ZbXM0podUjKUkn9fUIQVQowLhwHTKQq0dhXcFW4rT-l9K0LBXQ5r_7ArJrF0jB_90wIWU0ewTfl4t8tA6o48YzVZLtsjvwkJLbaIZv-OMF_cf6Io5nOhr_uX2Fi_0DSIrlxd6OB_pVkxsvrxZXK8uLC_KxbL8P0vbFcab0Mc19P9OO4TpPqRAfWvvhDShgvdBGNAqNEyUQfQa0Ps0foFL5KyTLnh7-ws5yO0G)
 
 <details>
 <summary>Mermaid code</summary>
 
 ```mermaid
 flowchart TD
-    U[Me<br>On my phone] --> CF[Cloudflare<br>Google sign-in]
-    CF --> NG[Nginx<br>Gateway]
-    NG --> CP[Control page<br>See, pause and resume agents]
-    CP --> AG[AI agents<br>Claude Code sessions]
-    AG --> GIT[Git<br>Tests before every merge]
-    GIT --> APP[Apps<br>Test site, then live after my approval]
+    ME[Me<br>Phone for daily commands<br>Code server for deep dev work] --> AG[AI agents<br>Work inside a harness with guardrails]
+    AG --> T[Pre-merge tests<br>Long Playwright journeys<br>Act like a real user]
+    T --> PR[Demo and pull request<br>Sent to me by the AI]
+    PR --> OK[I approve]
+    OK --> LIVE[Live for users]
 
-    subgraph GR[Guardrails]
-        LIM[Limits<br>Heat, load and memory]
-        WD[Watchdog<br>Restart and session restore]
-    end
+    PI[Raspberry Pi<br>Self-heals when it runs hot] -. Keeps running .-> AG
 
-    LIM -. Pauses .-> AG
-    WD -. Repairs .-> AG
-    LIM -. Phone alert .-> U
-
-    classDef main fill:#1e293b,stroke:#94a3b8,color:#f8fafc;
-    classDef safe fill:#0f766e,stroke:#5eead4,color:#ffffff;
-    class U,CF,NG,CP,AG,GIT,APP main;
-    class LIM,WD safe;
-    style GR fill:transparent,stroke:#14b8a6,stroke-dasharray:4 3,color:#14b8a6;
+    classDef flow fill:#1e293b,stroke:#94a3b8,color:#f8fafc;
+    classDef gate fill:#0f766e,stroke:#5eead4,color:#ffffff;
+    classDef pi fill:#b45309,stroke:#fcd34d,color:#ffffff;
+    class ME,AG,LIVE flow;
+    class T,PR,OK gate;
+    class PI pi;
 ```
 
 </details>
@@ -163,41 +156,24 @@ flowchart TD
 </details>
 
 <details>
-<summary>Control and safety</summary>
+<summary>AI guardrails</summary>
 
 <blockquote>
 
-- One phone page to see, pause and resume every agent.
-- Heat, load and memory limits with phone alerts.
-- Google login on everything public. Admin actions need a PIN.
-- Paid services are never called in tests.
+- Long Playwright tests act like a real user, before every merge.
+- The AI sends me a demo and a pull request. I approve before anything goes live.
 
 </blockquote>
 
 </details>
 
 <details>
-<summary>Self-repair</summary>
+<summary>Self-healing</summary>
 
 <blockquote>
 
-- Open agent sessions are saved every minute and reopened after a restart.
-- A watchdog restarts what is down. Restarts are capped, then I get an alert.
-- A rebuild kit sets the Pi up again from scratch.
-
-</blockquote>
-
-</details>
-
-<details>
-<summary>Testing and deployment</summary>
-
-<blockquote>
-
-- Git hooks run all tests before every merge.
-- Playwright tests walk through each app like a user.
-- A merge queue merges one change at a time.
-- Test site first, live site after my approval.
+- Heat, load and memory checks with phone alerts.
+- A watchdog restarts what is down. Agent sessions are reopened after a restart.
 
 </blockquote>
 
