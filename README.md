@@ -438,6 +438,32 @@ A tool for generating social-media posts.
 </details>
 
 <details>
+<summary>Newspapers Text Mining</summary>
+
+<blockquote>
+
+A classifier that sorts newspaper articles into 6 topics, with 82% accuracy. It runs as a containerized API.
+
+[View on GitHub ↗](https://github.com/murilobellatini/newspapers-text-mining)
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>iFood Data Architect Test</summary>
+
+<blockquote>
+
+A local data lake prototype with PySpark, Jupyter and Docker.
+
+[View on GitHub ↗](https://github.com/murilobellatini/ifood-data-architect-test)
+
+</blockquote>
+
+</details>
+
+<details>
 <summary>SegmentStyler</summary>
 
 <blockquote>
