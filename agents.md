@@ -17,7 +17,7 @@ The source code is closed. This page shows how it is built.
 
 <blockquote>
 
-<details>
+<details open>
 <summary>Overview</summary>
 
 <blockquote>

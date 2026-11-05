@@ -8,7 +8,7 @@ The source code is closed. This page shows how it is built.
 
 > Click on the rows to expand or collapse.
 
-<details open>
+<details>
 <summary><strong>Background</strong></summary>
 
 <blockquote>
@@ -27,12 +27,12 @@ It is now being tested with real users.
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Architecture</strong></summary>
 
 <blockquote>
 
-<details>
+<details open>
 <summary>Overview</summary>
 
 <blockquote>
