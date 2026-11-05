@@ -24,18 +24,13 @@ The source code is closed. This page shows how it is built.
 
 ```mermaid
 flowchart TD
-    ME[Me, on my phone] --> CF[Cloudflare tunnel + Google login]
-    CF --> NG[Nginx]
-    NG --> CTL[Agent control page]
-    NG --> APPS[My apps]
+    ME[Me<br>On my phone] --> CTL[Control page<br>Pause or resume agents]
+    CTL --> AG[AI agents<br>Write and run the code]
+    AG --> QA[Tests and review<br>Before every change]
+    QA --> APPS[My apps<br>Live for users]
 
-    CTL --> AG[AI agent sessions]
-    AG --> GIT[Git: tests run before every merge]
-    GIT --> APPS
-
-    WATCH[Watchdog: heat, load, memory] -. alert + pause .-> AG
-    WATCH -. phone alert .-> ME
-    BOOT[Boot restore] -. reopens sessions .-> AG
+    GD[Safety guards<br>Limits, alerts, self-repair] -.-> AG
+    GD -. Phone alert .-> ME
 ```
 
 </blockquote>

@@ -126,25 +126,20 @@ I built the safety first: limits, a stop button, and tests before every change.
 
 <blockquote>
 
-[![](https://mermaid.ink/img/pako:eNpVkd1uwjAMhV_Fyi2FB-jFpNJBQaKAtEpcZFxkrfsjpXGVpNsqxLvPtB3acmmf8_nYuYmcChShKDV95bWyHrLXdwP80o1MMQAy0A7Q1WTwCsvlC8RbGWvqi1Iri-B7Y1DDAhKiSiNoqhpznQjxdjQcE3nk4vdcPSYTJjvIqELjISfjLWnoVIX_NdH5_CbTAVTXOe7M1OwwNRMZ7UGNCIfONWTcbI8me7LPZNL4EDw678D2Bj6wJE6Nn2gHaNE-J7L2OfJ30iXK4p28KJ_XBVUh1Kh8wBuqImBvS3bgi6xAaeSzLTh_7xBWY7Q_gIdkPN8sfAjSzSRYn06ZXBN5sByRk41Ai9Shcc-tZqYIBCduVVOI8CZ8je3j4wosVa-9uN9_AMcdjnI=?type=png)](https://mermaid.live/edit#pako:eNpVkd1uwjAMhV_Fyi2FB-jFpNJBQaKAtEpcZFxkrfsjpXGVpNsqxLvPtB3acmmf8_nYuYmcChShKDV95bWyHrLXdwP80o1MMQAy0A7Q1WTwCsvlC8RbGWvqi1Iri-B7Y1DDAhKiSiNoqhpznQjxdjQcE3nk4vdcPSYTJjvIqELjISfjLWnoVIX_NdH5_CbTAVTXOe7M1OwwNRMZ7UGNCIfONWTcbI8me7LPZNL4EDw678D2Bj6wJE6Nn2gHaNE-J7L2OfJ30iXK4p28KJ_XBVUh1Kh8wBuqImBvS3bgi6xAaeSzLTh_7xBWY7Q_gIdkPN8sfAjSzSRYn06ZXBN5sByRk41Ai9Shcc-tZqYIBCduVVOI8CZ8je3j4wosVa-9uN9_AMcdjnI=)
+[![](https://mermaid.ink/img/pako:eNo1kN2KwjAQhV9lyLXdB5BFyKqUBYsVC3uR9SJrp22g-WGSVor47pu0NTchmfPNnDlPdrc1si1revu4d5ICVIdfA_EUR1Hg5x_tzgb0BK6zBm-QZTvYVyextyaQ7cHJdhaVcvAIloDQDxohfpvgb0urCMwgzwX_XksJ-iEVotTUQIOB0CEkNyvE85m5cFGhD36R4ajwkdAvbCwh4Ig0QTRu2jd34cussryKYgLp3DzrpEaEyED0ScnYos4P4iobDBO0g6R6lWoV_AZkj5Ruj32TETqpKAbwMS_ypuMbyhTNooZULY5swzSSlqpm2yeLi-mUcY2NHPrAXq9_t7B5kw==?type=png)](https://mermaid.live/edit#pako:eNo1kN2KwjAQhV9lyLXdB5BFyKqUBYsVC3uR9SJrp22g-WGSVor47pu0NTchmfPNnDlPdrc1si1revu4d5ICVIdfA_EUR1Hg5x_tzgb0BK6zBm-QZTvYVyextyaQ7cHJdhaVcvAIloDQDxohfpvgb0urCMwgzwX_XksJ-iEVotTUQIOB0CEkNyvE85m5cFGhD36R4ajwkdAvbCwh4Ig0QTRu2jd34cussryKYgLp3DzrpEaEyED0ScnYos4P4iobDBO0g6R6lWoV_AZkj5Ruj32TETqpKAbwMS_ypuMbyhTNooZULY5swzSSlqpm2yeLi-mUcY2NHPrAXq9_t7B5kw==)
 
 <details>
 <summary>Mermaid code</summary>
 
 ```mermaid
 flowchart TD
-    ME[Me, on my phone] --> CF[Cloudflare tunnel + Google login]
-    CF --> NG[Nginx]
-    NG --> CTL[Agent control page]
-    NG --> APPS[My apps]
+    ME[Me<br>On my phone] --> CTL[Control page<br>Pause or resume agents]
+    CTL --> AG[AI agents<br>Write and run the code]
+    AG --> QA[Tests and review<br>Before every change]
+    QA --> APPS[My apps<br>Live for users]
 
-    CTL --> AG[AI agent sessions]
-    AG --> GIT[Git: tests run before every merge]
-    GIT --> APPS
-
-    WATCH[Watchdog: heat, load, memory] -. alert + pause .-> AG
-    WATCH -. phone alert .-> ME
-    BOOT[Boot restore] -. reopens sessions .-> AG
+    GD[Safety guards<br>Limits, alerts, self-repair] -.-> AG
+    GD -. Phone alert .-> ME
 ```
 
 </details>
