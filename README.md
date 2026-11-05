@@ -110,7 +110,7 @@ Supported cross-functional teams through shadowing and reverse shadowing.
 
 Agents are only useful if you can trust them.
 
-I run AI agents on a small home server. They send me a demo and a pull request. I approve.
+I run AI agents on a small home server. They send me a demo and a pull request. I approve. I only review demos, so I move faster.
 
 [Architecture ↗](agents.md) (the code is closed source)
 
@@ -124,7 +124,7 @@ I run AI agents on a small home server. They send me a demo and a pull request. 
 
 <blockquote>
 
-[![](https://mermaid.ink/img/pako:eNp1kl9LwzAUxb_KJXtR6GS6-WdVhMF0FBVLHb5sPqTtzRZNm5qkyhC_u7dpnWxgHnPv75xzb_LFMp0jC5lQ-jNbc-NgPl2WQOfhZrFkD3iVmuuDeK1LBF7m0LSDRfOB5nDJXqDfv4bJjDonEfAVls56ICqtpMZVzU1uuFS2aW51JzMPzRumdrrgTmbg0HZkglz1a3KAV12bEjc2AF0CkuEGKGG5wj-tOUlBzK31knFCmlMstE9a1UqBwfeapNtM4EhCOig2FpXYUTmCW0oJR36a9jZOvOjj3YImqyqjP7Drf7zzlfvo-WZxL_11h0QUIOG2StGQVSy97xOZ9dc0lm039mvSMpmi-FMU0LwACKlU2DvGk_EwDawz-g3D3njEh-lFkGmlTdgTF4KL7HKPXnGHHT0Q52dnuKVPEXk-2tL-7NOV7Nh0dDocjLesyPLhKP-fpU8STGZBswmff6c2D-IkoF010XYKcUSGlyxgBZqCy5yFX8ytsWj-YY6C18qx7-8ffE3RTQ==?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNp1kl9LwzAUxb_KJXtR6GS6-WdVhMF0FBVLHb5sPqTtzRZNm5qkyhC_u7dpnWxgHnPv75xzb_LFMp0jC5lQ-jNbc-NgPl2WQOfhZrFkD3iVmuuDeK1LBF7m0LSDRfOB5nDJXqDfv4bJjDonEfAVls56ICqtpMZVzU1uuFS2aW51JzMPzRumdrrgTmbg0HZkglz1a3KAV12bEjc2AF0CkuEGKGG5wj-tOUlBzK31knFCmlMstE9a1UqBwfeapNtM4EhCOig2FpXYUTmCW0oJR36a9jZOvOjj3YImqyqjP7Drf7zzlfvo-WZxL_11h0QUIOG2StGQVSy97xOZ9dc0lm039mvSMpmi-FMU0LwACKlU2DvGk_EwDawz-g3D3njEh-lFkGmlTdgTF4KL7HKPXnGHHT0Q52dnuKVPEXk-2tL-7NOV7Nh0dDocjLesyPLhKP-fpU8STGZBswmff6c2D-IkoF010XYKcUSGlyxgBZqCy5yFX8ytsWj-YY6C18qx7-8ffE3RTQ==)
+[![](https://mermaid.ink/img/pako:eNp1kl9r2zAUxb_KRXlZwSndkv6JOwqh6YJpS40X9pLsQbauEm2y5ElySyj97r2WvYwUpjdJ53fuuVd6ZZUVyFImtX2pdtwFWC02Bmg93q037BG_lu7mU76zBoEbAZ0cPLpndCcb9hPG4xuYL0k5z4Bv0QQfgcx4RcJty51wXGnfiXvf-TJCq45pg615UBUE9ANZINfjlirAL9s6g3ufgDWAVHAPlNBs8Z_Xiqwg595Hy7wgzwXWNiZtWq3B4Z-WrPtMEMhCBaj3HrU8cjmFb5QSTmM3_WleRNOn-zV11jTOPuOgf7rvgNuYxYNBFCiO0E5A24fsx936QUVu8MwoYcF9U6KjLLmKwb5TmvGO-vb9SP9a9Uylqb8FSuieCKTSOh19xi-zSZn44OxvTEezKZ-UV0lltXXpSF5JLqvrD_SWBxzoM3l5cYEH-hyRi-mBjusj3aiBLafnk7PZgZWVmEzF_1n6Rcl8mXSTiPmP7lZJXiQ0qy7a0UWeUcFrlrAaXc2VYOkrCzusu48qUPJWB_b29g5Rgdpr?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNp1kl9r2zAUxb_KRXlZwSndkv6JOwqh6YJpS40X9pLsQbauEm2y5ElySyj97r2WvYwUpjdJ53fuuVd6ZZUVyFImtX2pdtwFWC02Bmg93q037BG_lu7mU76zBoEbAZ0cPLpndCcb9hPG4xuYL0k5z4Bv0QQfgcx4RcJty51wXGnfiXvf-TJCq45pg615UBUE9ANZINfjlirAL9s6g3ufgDWAVHAPlNBs8Z_Xiqwg595Hy7wgzwXWNiZtWq3B4Z-WrPtMEMhCBaj3HrU8cjmFb5QSTmM3_WleRNOn-zV11jTOPuOgf7rvgNuYxYNBFCiO0E5A24fsx936QUVu8MwoYcF9U6KjLLmKwb5TmvGO-vb9SP9a9Uylqb8FSuieCKTSOh19xi-zSZn44OxvTEezKZ-UV0lltXXpSF5JLqvrD_SWBxzoM3l5cYEH-hyRi-mBjusj3aiBLafnk7PZgZWVmEzF_1n6Rcl8mXSTiPmP7lZJXiQ0qy7a0UWeUcFrlrAaXc2VYOkrCzusu48qUPJWB_b29g5Rgdpr)
 
 <details>
 <summary>Mermaid code</summary>
@@ -136,6 +136,7 @@ flowchart TD
     T -- Pass --> PR["Demo and pull request<br>(I try it myself)"]
     T -. Fail .-> AG
     PR --> OK[I approve]
+    OK -. Changes needed .-> AG
     OK --> LIVE[Live]
 
     PI["Raspberry Pi<br>(Self-heals)"] -.-> AG

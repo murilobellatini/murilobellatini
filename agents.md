@@ -6,6 +6,8 @@ I run AI agents on a small home server.
 
 They send me a demo and a pull request. I approve.
 
+I only review demos, so I move faster.
+
 The source code is closed. This page shows how it is built.
 
 [Back to profile](README.md)
@@ -29,6 +31,7 @@ flowchart TD
     T -- Pass --> PR["Demo and pull request<br>(I try it myself)"]
     T -. Fail .-> AG
     PR --> OK[I approve]
+    OK -. Changes needed .-> AG
     OK --> LIVE[Live]
 
     PI["Raspberry Pi<br>(Self-heals)"] -.-> AG
