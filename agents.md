@@ -40,11 +40,11 @@ flowchart TD
     WD -. Repairs .-> AG
     LIM -. Phone alert .-> U
 
-    classDef main fill:#f6f8fa,stroke:#57606a,color:#1f2328;
-    classDef safe fill:#e6f6f4,stroke:#1a7f77,color:#1f2328;
+    classDef main fill:#1e293b,stroke:#94a3b8,color:#f8fafc;
+    classDef safe fill:#0f766e,stroke:#5eead4,color:#ffffff;
     class U,CF,NG,CP,AG,GIT,APP main;
     class LIM,WD safe;
-    style GR fill:#f0fbfa,stroke:#1a7f77,stroke-dasharray:4 3;
+    style GR fill:transparent,stroke:#14b8a6,stroke-dasharray:4 3,color:#14b8a6;
 ```
 
 </blockquote>
