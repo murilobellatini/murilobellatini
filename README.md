@@ -124,7 +124,7 @@ I run AI agents on a small home server. They send me a demo and a pull request. 
 
 <blockquote>
 
-[![](https://mermaid.ink/img/pako:eNp1ktFugjAUhl-lwVswbqBTXExIdIaokTCyG-ZFoafCVilrwcUY332loMtM1sue7zvn74GzkXIChmtQxr_TDIsKRfP3AqmzWcQbeE7ELMh4AQgXBDUskiCOIHbIsmbIW8aej_Aeiko2qF_IXCH7GgsicM7kru3lLTUexRHIlgwBM6tWvdAHr0UBpysaKRIFWEptBGE8hwPX08uaMSTgq1Y9fuE-elGDUF-naW-DULvbVayylaXgR-j47UpX1v7bIl7n-rpT_DjEskxAiBMK8ibhKzBqZSqmVG-9tm_plKl8c6Co2RqiOWNu7wEeJ3ZiykrwT3B7EwfbydhMOePC7dExxTSd3tl7XEFnD-jTaAQ3ewiAiXOz9bm3y7xzE2doDyY3l6bEdsj_rvqwprc0mx3o_H9qkRmEptpSE-1PIfDVwKlhGgcQB5wTwz0bVQaH5t8hQHHNKuNy-QGm4roo?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNp1ktFugjAUhl-lwVswbqBTXExIdIaokTCyG-ZFoafCVilrwcUY332loMtM1sue7zvn74GzkXIChmtQxr_TDIsKRfP3AqmzWcQbeE7ELMh4AQgXBDUskiCOIHbIsmbIW8aej_Aeiko2qF_IXCH7GgsicM7kru3lLTUexRHIlgwBM6tWvdAHr0UBpysaKRIFWEptBGE8hwPX08uaMSTgq1Y9fuE-elGDUF-naW-DULvbVayylaXgR-j47UpX1v7bIl7n-rpT_DjEskxAiBMK8ibhKzBqZSqmVG-9tm_plKl8c6Co2RqiOWNu7wEeJ3ZiykrwT3B7EwfbydhMOePC7dExxTSd3tl7XEFnD-jTaAQ3ewiAiXOz9bm3y7xzE2doDyY3l6bEdsj_rvqwprc0mx3o_H9qkRmEptpSE-1PIfDVwKlhGgcQB5wTwz0bVQaH5t8hQHHNKuNy-QGm4roo)
+[![](https://mermaid.ink/img/pako:eNp1ktFPwjAQxv-Vy3gdBgUVpiFZgpJFCMskvkweuu0K1W6dbYchhP_dW0GMJvbx7n7f992ley9XBXqBx6X6zDdMW1hOXiugN39I53if6XG8URUCqwpoZ8Gg3qJeQbc7hnCahhGwNVbWtKNRZQSNrBumC82ENKujVjh148s0bKwqmRU5WDRHJkEmuw2pwptqdIU7V11UgGSzAwpVrfGksyQZiJkxTi5O0gmWykWrGylB40dDsi4JWIKFhXJnUPIf_gIeKRhcuPTHapw4ucVTSrvUtVbbb7_Fk-vMopeHdCZc-YREacJMnaEml1i0js9k093QMoZu8y1_nM4lRZ4gh_bKwIWUQecSr0b9zDdWq3cMOqMB62dDP1dS6aDDh5zx_O4PvWYWT3SP397c4Jm-RmTF4Ey795euxYnNBtf93ujM8rzoD4r_WfoIfjj12xu4_L96Sz9OfLpSG-1XI47I8M7zvRJ1yUThBXvPbrBs_1qBnDXSeofDF9tPy64=?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNp1ktFPwjAQxv-Vy3gdBgUVpiFZgpJFCMskvkweuu0K1W6dbYchhP_dW0GMJvbx7n7f992ley9XBXqBx6X6zDdMW1hOXiugN39I53if6XG8URUCqwpoZ8Gg3qJeQbc7hnCahhGwNVbWtKNRZQSNrBumC82ENKujVjh148s0bKwqmRU5WDRHJkEmuw2pwptqdIU7V11UgGSzAwpVrfGksyQZiJkxTi5O0gmWykWrGylB40dDsi4JWIKFhXJnUPIf_gIeKRhcuPTHapw4ucVTSrvUtVbbb7_Fk-vMopeHdCZc-YREacJMnaEml1i0js9k093QMoZu8y1_nM4lRZ4gh_bKwIWUQecSr0b9zDdWq3cMOqMB62dDP1dS6aDDh5zx_O4PvWYWT3SP397c4Jm-RmTF4Ey795euxYnNBtf93ujM8rzoD4r_WfoIfjj12xu4_L96Sz9OfLpSG-1XI47I8M7zvRJ1yUThBXvPbrBs_1qBnDXSeofDF9tPy64=)
 
 <details>
 <summary>Mermaid code</summary>
@@ -132,8 +132,8 @@ I run AI agents on a small home server. They send me a demo and a pull request. 
 ```mermaid
 flowchart TD
     ME[Me<br>Phone and code server] --> AG[AI agents<br>Inside guardrails]
-    AG --> T[Tests<br>Real-user journeys]
-    T -- Pass --> PR[Demo and pull request]
+    AG --> T[Automatic tests<br>Real-user journeys<br>On every change]
+    T -- Pass --> PR[Demo and pull request<br>I try it myself]
     T -. Fail .-> AG
     PR --> OK[I approve]
     OK --> LIVE[Live]
@@ -159,8 +159,9 @@ flowchart TD
 
 <blockquote>
 
-- Long Playwright tests act like a real user.
-- Demo and pull request. I approve first.
+- Automatic Playwright tests act like a real user, on every change.
+- Old features keep working: all tests run each time.
+- I try the demo myself, then approve.
 
 </blockquote>
 

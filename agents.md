@@ -25,8 +25,8 @@ The source code is closed. This page shows how it is built.
 ```mermaid
 flowchart TD
     ME[Me<br>Phone and code server] --> AG[AI agents<br>Inside guardrails]
-    AG --> T[Tests<br>Real-user journeys]
-    T -- Pass --> PR[Demo and pull request]
+    AG --> T[Automatic tests<br>Real-user journeys<br>On every change]
+    T -- Pass --> PR[Demo and pull request<br>I try it myself]
     T -. Fail .-> AG
     PR --> OK[I approve]
     OK --> LIVE[Live]
@@ -80,8 +80,9 @@ flowchart TD
 
 <blockquote>
 
-- Long Playwright tests act like a real user.
-- Demo and pull request. I approve first.
+- Automatic Playwright tests act like a real user, on every change.
+- Old features keep working: all tests run each time.
+- I try the demo myself, then approve.
 
 </blockquote>
 
