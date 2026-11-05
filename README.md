@@ -104,7 +104,7 @@ Supported cross-functional teams through shadowing and reverse shadowing.
 <blockquote>
 
 <details>
-<summary>AI Agents on a Raspberry Pi</summary>
+<summary>AI Agents on a Raspberry Pi — Safe Agent Operations</summary>
 
 <blockquote>
 
@@ -112,10 +112,91 @@ Agents are only useful if you can trust them.
 
 I run a small home server where AI agents build and run my apps, including FitGo.
 
-A phone page shows every agent. I can pause one, or all.
-Limits, self-repair and tests before every change keep it safe.
+I built the safety first: limits, a stop button, and tests before every change.
 
 [Architecture ↗](agents.md) (the code is closed source)
+
+<details>
+<summary>Technical implementation</summary>
+
+<blockquote>
+
+<details>
+<summary>Architecture and hosting</summary>
+
+<blockquote>
+
+[![](https://mermaid.ink/img/pako:eNpVkd1uwjAMhV_Fyi2FB-jFpNJBQaKAtEpcZFxkrfsjpXGVpNsqxLvPtB3acmmf8_nYuYmcChShKDV95bWyHrLXdwP80o1MMQAy0A7Q1WTwCsvlC8RbGWvqi1Iri-B7Y1DDAhKiSiNoqhpznQjxdjQcE3nk4vdcPSYTJjvIqELjISfjLWnoVIX_NdH5_CbTAVTXOe7M1OwwNRMZ7UGNCIfONWTcbI8me7LPZNL4EDw678D2Bj6wJE6Nn2gHaNE-J7L2OfJ30iXK4p28KJ_XBVUh1Kh8wBuqImBvS3bgi6xAaeSzLTh_7xBWY7Q_gIdkPN8sfAjSzSRYn06ZXBN5sByRk41Ai9Shcc-tZqYIBCduVVOI8CZ8je3j4wosVa-9uN9_AMcdjnI=?type=png)](https://mermaid.live/edit#pako:eNpVkd1uwjAMhV_Fyi2FB-jFpNJBQaKAtEpcZFxkrfsjpXGVpNsqxLvPtB3acmmf8_nYuYmcChShKDV95bWyHrLXdwP80o1MMQAy0A7Q1WTwCsvlC8RbGWvqi1Iri-B7Y1DDAhKiSiNoqhpznQjxdjQcE3nk4vdcPSYTJjvIqELjISfjLWnoVIX_NdH5_CbTAVTXOe7M1OwwNRMZ7UGNCIfONWTcbI8me7LPZNL4EDw678D2Bj6wJE6Nn2gHaNE-J7L2OfJ30iXK4p28KJ_XBVUh1Kh8wBuqImBvS3bgi6xAaeSzLTh_7xBWY7Q_gIdkPN8sfAjSzSRYn06ZXBN5sByRk41Ai9Shcc-tZqYIBCduVVOI8CZ8je3j4wosVa-9uN9_AMcdjnI=)
+
+<details>
+<summary>Mermaid code</summary>
+
+```mermaid
+flowchart TD
+    ME[Me, on my phone] --> CF[Cloudflare tunnel + Google login]
+    CF --> NG[Nginx]
+    NG --> CTL[Agent control page]
+    NG --> APPS[My apps]
+
+    CTL --> AG[AI agent sessions]
+    AG --> GIT[Git: tests run before every merge]
+    GIT --> APPS
+
+    WATCH[Watchdog: heat, load, memory] -. alert + pause .-> AG
+    WATCH -. phone alert .-> ME
+    BOOT[Boot restore] -. reopens sessions .-> AG
+```
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Control and safety</summary>
+
+<blockquote>
+
+- One phone page to see, pause and resume every agent.
+- Heat, load and memory limits with phone alerts.
+- Google login on everything public. Admin actions need a PIN.
+- Paid services are never called in tests.
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Self-repair</summary>
+
+<blockquote>
+
+- Open agent sessions are saved every minute and reopened after a restart.
+- A watchdog restarts what is down. Restarts are capped, then I get an alert.
+- A rebuild kit sets the Pi up again from scratch.
+
+</blockquote>
+
+</details>
+
+<details>
+<summary>Testing and deployment</summary>
+
+<blockquote>
+
+- Git hooks run all tests before every merge.
+- Playwright tests walk through each app like a user.
+- A merge queue merges one change at a time.
+- Test site first, live site after my approval.
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
 
 </blockquote>
 
