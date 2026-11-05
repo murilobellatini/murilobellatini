@@ -2,11 +2,9 @@
 
 Agents are only useful if you can trust them.
 
-I run a small home server where AI agents build and run my apps.
+I run AI agents on a small home server.
 
-I send daily commands from my phone. For deep work I use a code server.
-
-The agents work inside a harness with guardrails. They send me a demo and a pull request. I approve. That is how I move fast and stay safe.
+They send me a demo and a pull request. I approve.
 
 The source code is closed. This page shows how it is built.
 
@@ -26,13 +24,14 @@ The source code is closed. This page shows how it is built.
 
 ```mermaid
 flowchart TD
-    ME[Me<br>Phone for daily commands<br>Code server for deep dev work] --> AG[AI agents<br>Work inside a harness with guardrails]
-    AG --> T[Pre-merge tests<br>Long Playwright journeys<br>Act like a real user]
-    T --> PR[Demo and pull request<br>Sent to me by the AI]
+    ME[Me<br>Phone and code server] --> AG[AI agents<br>Inside guardrails]
+    AG --> T[Tests<br>Real-user journeys]
+    T -- Pass --> PR[Demo and pull request]
+    T -. Fail .-> AG
     PR --> OK[I approve]
-    OK --> LIVE[Live for users]
+    OK --> LIVE[Live]
 
-    PI[Raspberry Pi<br>Self-heals when it runs hot] -. Keeps running .-> AG
+    PI[Raspberry Pi<br>Self-heals] -.-> AG
 
     classDef flow fill:#1e293b,stroke:#94a3b8,color:#f8fafc;
     classDef gate fill:#0f766e,stroke:#5eead4,color:#ffffff;
@@ -41,63 +40,6 @@ flowchart TD
     class T,PR,OK gate;
     class PI pi;
 ```
-
-</blockquote>
-
-</details>
-
-</blockquote>
-
-</details>
-
-<details>
-<summary><strong>AI guardrails</strong></summary>
-
-<blockquote>
-
-<details>
-<summary>Before every merge</summary>
-
-<blockquote>
-
-- Git hooks run all unit tests.
-- Long Playwright tests walk through each app like a real user.
-- A merge queue merges one change at a time.
-
-</blockquote>
-
-</details>
-
-<details>
-<summary>Before it goes live</summary>
-
-<blockquote>
-
-- The AI sends me a demo and a pull request.
-- Test site first. Live site only after my approval.
-- Paid services are never called in tests.
-
-</blockquote>
-
-</details>
-
-</blockquote>
-
-</details>
-
-<details>
-<summary><strong>Self-healing</strong></summary>
-
-<blockquote>
-
-<details>
-<summary>If the Pi runs hot</summary>
-
-<blockquote>
-
-- Heat, load and memory are checked all the time. The phone alerts me.
-- A watchdog restarts what is down. Restarts are capped, then I get an alert.
-- Agent sessions are saved every minute and reopened after a restart.
 
 </blockquote>
 
@@ -117,8 +59,50 @@ flowchart TD
 
 <blockquote>
 
-- Phone: one page to see, pause and resume every agent. Google login.
-- Code server: a full editor in the browser for deep work.
+- Phone: daily commands, pause and resume.
+- Code server: deep dev work in the browser.
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>AI guardrails</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>Before it goes live</summary>
+
+<blockquote>
+
+- Long Playwright tests act like a real user.
+- Demo and pull request. I approve first.
+
+</blockquote>
+
+</details>
+
+</blockquote>
+
+</details>
+
+<details>
+<summary><strong>Self-healing</strong></summary>
+
+<blockquote>
+
+<details>
+<summary>If the Pi runs hot</summary>
+
+<blockquote>
+
+- Phone alert. A watchdog restarts what is down.
+- Agent sessions reopen after a restart.
 
 </blockquote>
 
@@ -139,8 +123,7 @@ flowchart TD
 <blockquote>
 
 - AI agents wrote much of the code.
-- I set the direction, the rules and the specifications.
-- I review the result and own the quality.
+- I set the rules and own the quality.
 
 </blockquote>
 

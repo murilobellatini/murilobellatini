@@ -110,9 +110,7 @@ Supported cross-functional teams through shadowing and reverse shadowing.
 
 Agents are only useful if you can trust them.
 
-I run a small home server where AI agents build and run my apps.
-
-They work inside a harness with guardrails, and send me a demo and a pull request. I approve. I move fast and stay safe.
+I run AI agents on a small home server. They send me a demo and a pull request. I approve.
 
 [Architecture ↗](agents.md) (the code is closed source)
 
@@ -126,20 +124,21 @@ They work inside a harness with guardrails, and send me a demo and a pull reques
 
 <blockquote>
 
-[![](https://mermaid.ink/img/pako:eNp1ktFvmzAQxv-VE3klVbekXUOnSmipIpRURVm0PbA-GDiDF2Mz2yRCVf_3nYFFaqX5gQc-_767-3yvQaFLDKKAS30uamYcHNa_FNB5esye8GtuHtJaKwSuDZRMyB4K3TRMldZr34gGi-aEZryB2NLnBGdtji8wnz9AvMniBFiFyg3IT1JAKCuIZEAlFVoLZ-FqqDpmSkNF7MvYQ7wZLA5ZanDeoKkQHNrRZ6dVBalk_dmIqnbwW3dk1Q9aXDiQ4ugLGGQSOmpxsjwMjuk-W2OjgeaAtpOSrv3pyNnD36lTcBoahLwHVyPEyQSn-4F-3mY0UdsafcJJed4Oyi758ZjtxGnMy5f1o0xwku2ZbXM0podUjKUkn9fUIQVQowLhwHTKQq0dhXcFW4rT-l9K0LBXQ5r_7ArJrF0jB_90wIWU0ewTfl4t8tA6o48YzVZLtsjvwkJLbaIZv-OMF_cf6Io5nOhr_uX2Fi_0DSIrlxd6OB_pVkxsvrxZXK8uLC_KxbL8P0vbFcab0Mc19P9OO4TpPqRAfWvvhDShgvdBGNAqNEyUQfQa0Ps0foFL5KyTLnh7-ws5yO0G?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNp1ktFvmzAQxv-VE3klVbekXUOnSmipIpRURVm0PbA-GDiDF2Mz2yRCVf_3nYFFaqX5gQc-_767-3yvQaFLDKKAS30uamYcHNa_FNB5esye8GtuHtJaKwSuDZRMyB4K3TRMldZr34gGi-aEZryB2NLnBGdtji8wnz9AvMniBFiFyg3IT1JAKCuIZEAlFVoLZ-FqqDpmSkNF7MvYQ7wZLA5ZanDeoKkQHNrRZ6dVBalk_dmIqnbwW3dk1Q9aXDiQ4ugLGGQSOmpxsjwMjuk-W2OjgeaAtpOSrv3pyNnD36lTcBoahLwHVyPEyQSn-4F-3mY0UdsafcJJed4Oyi758ZjtxGnMy5f1o0xwku2ZbXM0podUjKUkn9fUIQVQowLhwHTKQq0dhXcFW4rT-l9K0LBXQ5r_7ArJrF0jB_90wIWU0ewTfl4t8tA6o48YzVZLtsjvwkJLbaIZv-OMF_cf6Io5nOhr_uX2Fi_0DSIrlxd6OB_pVkxsvrxZXK8uLC_KxbL8P0vbFcab0Mc19P9OO4TpPqRAfWvvhDShgvdBGNAqNEyUQfQa0Ps0foFL5KyTLnh7-ws5yO0G)
+[![](https://mermaid.ink/img/pako:eNp1ktFugjAUhl-lwVswbqBTXExIdIaokTCyG-ZFoafCVilrwcUY332loMtM1sue7zvn74GzkXIChmtQxr_TDIsKRfP3AqmzWcQbeE7ELMh4AQgXBDUskiCOIHbIsmbIW8aej_Aeiko2qF_IXCH7GgsicM7kru3lLTUexRHIlgwBM6tWvdAHr0UBpysaKRIFWEptBGE8hwPX08uaMSTgq1Y9fuE-elGDUF-naW-DULvbVayylaXgR-j47UpX1v7bIl7n-rpT_DjEskxAiBMK8ibhKzBqZSqmVG-9tm_plKl8c6Co2RqiOWNu7wEeJ3ZiykrwT3B7EwfbydhMOePC7dExxTSd3tl7XEFnD-jTaAQ3ewiAiXOz9bm3y7xzE2doDyY3l6bEdsj_rvqwprc0mx3o_H9qkRmEptpSE-1PIfDVwKlhGgcQB5wTwz0bVQaH5t8hQHHNKuNy-QGm4roo?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNp1ktFugjAUhl-lwVswbqBTXExIdIaokTCyG-ZFoafCVilrwcUY332loMtM1sue7zvn74GzkXIChmtQxr_TDIsKRfP3AqmzWcQbeE7ELMh4AQgXBDUskiCOIHbIsmbIW8aej_Aeiko2qF_IXCH7GgsicM7kru3lLTUexRHIlgwBM6tWvdAHr0UBpysaKRIFWEptBGE8hwPX08uaMSTgq1Y9fuE-elGDUF-naW-DULvbVayylaXgR-j47UpX1v7bIl7n-rpT_DjEskxAiBMK8ibhKzBqZSqmVG-9tm_plKl8c6Co2RqiOWNu7wEeJ3ZiykrwT3B7EwfbydhMOePC7dExxTSd3tl7XEFnD-jTaAQ3ewiAiXOz9bm3y7xzE2doDyY3l6bEdsj_rvqwprc0mx3o_H9qkRmEptpSE-1PIfDVwKlhGgcQB5wTwz0bVQaH5t8hQHHNKuNy-QGm4roo)
 
 <details>
 <summary>Mermaid code</summary>
 
 ```mermaid
 flowchart TD
-    ME[Me<br>Phone for daily commands<br>Code server for deep dev work] --> AG[AI agents<br>Work inside a harness with guardrails]
-    AG --> T[Pre-merge tests<br>Long Playwright journeys<br>Act like a real user]
-    T --> PR[Demo and pull request<br>Sent to me by the AI]
+    ME[Me<br>Phone and code server] --> AG[AI agents<br>Inside guardrails]
+    AG --> T[Tests<br>Real-user journeys]
+    T -- Pass --> PR[Demo and pull request]
+    T -. Fail .-> AG
     PR --> OK[I approve]
-    OK --> LIVE[Live for users]
+    OK --> LIVE[Live]
 
-    PI[Raspberry Pi<br>Self-heals when it runs hot] -. Keeps running .-> AG
+    PI[Raspberry Pi<br>Self-heals] -.-> AG
 
     classDef flow fill:#1e293b,stroke:#94a3b8,color:#f8fafc;
     classDef gate fill:#0f766e,stroke:#5eead4,color:#ffffff;
@@ -160,8 +159,8 @@ flowchart TD
 
 <blockquote>
 
-- Long Playwright tests act like a real user, before every merge.
-- The AI sends me a demo and a pull request. I approve before anything goes live.
+- Long Playwright tests act like a real user.
+- Demo and pull request. I approve first.
 
 </blockquote>
 
@@ -172,8 +171,7 @@ flowchart TD
 
 <blockquote>
 
-- Heat, load and memory checks with phone alerts.
-- A watchdog restarts what is down. Agent sessions are reopened after a restart.
+- Phone alert. A watchdog restarts what is down.
 
 </blockquote>
 
