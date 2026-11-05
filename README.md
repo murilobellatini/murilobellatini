@@ -126,24 +126,34 @@ I built the safety first: limits, a stop button, and tests before every change.
 
 <blockquote>
 
-[![](https://mermaid.ink/img/pako:eNp1ktFr2zAQxv-Vw3lVytptSXFHwdA2FBZImkIfvD7c7JMtJktBOi-E0v99J7kptDA_Cd_97vvuk16KxrdUlIW2_tD0GBgeb345kG99W6_px-9wvem9I2i84-At7LEjOBjuYeV9Zwms74x7hvn8GqpVXd2DNDiGSDEa72Ka8BQME6BrQSSc8NyngS09T1LVKuPbqt6OaA0foUOmjFbWghw5KsguJn6g0FELyIDAZjjN2VZ5zsPtz3rHmDoCWcKY13iUKRCTEW1CZJVMOLDm74kWbNpis6nXR8D9Pju4dzDG1DN17aq7eoea-JiKDxT9GBpJwQyGY94RLQWezI_s50F0U66p9BYKpH8-kKR2BgfkpqcJDbRHMQdnOcyTZGMxxhvSMKBx4t7acqYX-lKjinInf6icfV8uvixQNd76UM7O9cXXi8urT3QU1280LYT_9k6f41Ivl_-n5S2oaqW2lZKMlOSTnXzokFiywFWhCrkdqbdF-VJIxkN6Xi1pHC0Xr6__AC-xzRs=?type=png)](https://mermaid.live/edit#pako:eNp1ktFr2zAQxv-Vw3lVytptSXFHwdA2FBZImkIfvD7c7JMtJktBOi-E0v99J7kptDA_Cd_97vvuk16KxrdUlIW2_tD0GBgeb345kG99W6_px-9wvem9I2i84-At7LEjOBjuYeV9Zwms74x7hvn8GqpVXd2DNDiGSDEa72Ka8BQME6BrQSSc8NyngS09T1LVKuPbqt6OaA0foUOmjFbWghw5KsguJn6g0FELyIDAZjjN2VZ5zsPtz3rHmDoCWcKY13iUKRCTEW1CZJVMOLDm74kWbNpis6nXR8D9Pju4dzDG1DN17aq7eoea-JiKDxT9GBpJwQyGY94RLQWezI_s50F0U66p9BYKpH8-kKR2BgfkpqcJDbRHMQdnOcyTZGMxxhvSMKBx4t7acqYX-lKjinInf6icfV8uvixQNd76UM7O9cXXi8urT3QU1280LYT_9k6f41Ivl_-n5S2oaqW2lZKMlOSTnXzokFiywFWhCrkdqbdF-VJIxkN6Xi1pHC0Xr6__AC-xzRs=)
+[![](https://mermaid.ink/img/pako:eNp1U8tu2zAQ_JWFcqWDvGoHShHAkGHVQOIKrg0f1BzW1lImSpECSTkVgvx7ST2KpEB5ErUzO7MPvkVHXVAUR1zq1-MJjYPt4qcCf3b5M309mMfvCqoW6pNW9AKTySMkyzyRuim4RNMhUq1LSWBFqSZCvfT0ZNmB12m-LoX63eHQ0Su2A2Cd9tmyPNHKGS2hxrLL94OI-UtjCVAVYMg2lf8sSTk7Zs868jzN56shEpiJxKYgSHxNYMlaodXImPdy6Wqbp8IF8Jass3Agrg0Bncm0UJEpaSB4ZK-RZfm8ru1I8XU678-dSIEUZ2-MOzKhR1jXRp9R-gR9CtscSoP1CdJNnjZoCoNCjobCeVo950-iEr37b4SOgdRYdHVXVGnTfkDvF_ke3fFU6DLAN95MGFjADsWGXjlfzkAiVYxWvBJMLiELXbVw2fWuj-wXIbChGoX5HBk5YfSAkrxWCO_GnEeJ1i6IQ4VCARdSxhd8yu85MusH-oviiy-z6dUU2VFLbeKLa35ze3P_8A_bIqeBTVPPv_vLvsYZn83-z4YdS5ZsnbIkY_OU-YkxP63OzieYL4T5MoPQ8N-61m9suhldX_HDB9eDbn-dFGj9wzDYxndw-xCxyG-Jlyii-C3yW1CF51MQx0a66P39D_NADP0=?type=png)](https://mermaid.live/edit#pako:eNp1U8tu2zAQ_JWFcqWDvGoHShHAkGHVQOIKrg0f1BzW1lImSpECSTkVgvx7ST2KpEB5ErUzO7MPvkVHXVAUR1zq1-MJjYPt4qcCf3b5M309mMfvCqoW6pNW9AKTySMkyzyRuim4RNMhUq1LSWBFqSZCvfT0ZNmB12m-LoX63eHQ0Su2A2Cd9tmyPNHKGS2hxrLL94OI-UtjCVAVYMg2lf8sSTk7Zs868jzN56shEpiJxKYgSHxNYMlaodXImPdy6Wqbp8IF8Jass3Agrg0Bncm0UJEpaSB4ZK-RZfm8ru1I8XU678-dSIEUZ2-MOzKhR1jXRp9R-gR9CtscSoP1CdJNnjZoCoNCjobCeVo950-iEr37b4SOgdRYdHVXVGnTfkDvF_ke3fFU6DLAN95MGFjADsWGXjlfzkAiVYxWvBJMLiELXbVw2fWuj-wXIbChGoX5HBk5YfSAkrxWCO_GnEeJ1i6IQ4VCARdSxhd8yu85MusH-oviiy-z6dUU2VFLbeKLa35ze3P_8A_bIqeBTVPPv_vLvsYZn83-z4YdS5ZsnbIkY_OU-YkxP63OzieYL4T5MoPQ8N-61m9suhldX_HDB9eDbn-dFGj9wzDYxndw-xCxyG-Jlyii-C3yW1CF51MQx0a66P39D_NADP0=)
 
 <details>
 <summary>Mermaid code</summary>
 
 ```mermaid
 flowchart TD
-    ME[Me<br>Phone control page with Google login] --> AG[AI agent sessions<br>Write and change the code]
-    AG --> QA[Quality gates<br>All tests, one change merged at a time]
-    QA --> REL[Staged release<br>Test site first, then live]
-    REL --> APP[My apps<br>In use]
+    U[Me<br>On my phone] --> CF[Cloudflare<br>Google sign-in]
+    CF --> NG[Nginx<br>Gateway]
+    NG --> CP[Control page<br>See, pause and resume agents]
+    CP --> AG[AI agents<br>Claude Code sessions]
+    AG --> GIT[Git<br>Tests before every merge]
+    GIT --> APP[Apps<br>Test site, then live after my approval]
 
-    SAF[Safety<br>Resource limits and alerts<br>Auto-restart and session restore] -. watches and repairs .-> AG
+    subgraph GR[Guardrails]
+        LIM[Limits<br>Heat, load and memory]
+        WD[Watchdog<br>Restart and session restore]
+    end
+
+    LIM -. Pauses .-> AG
+    WD -. Repairs .-> AG
+    LIM -. Phone alert .-> U
 
     classDef main fill:#f6f8fa,stroke:#57606a,color:#1f2328;
     classDef safe fill:#e6f6f4,stroke:#1a7f77,color:#1f2328;
-    class ME,AG,QA,REL,APP main;
-    class SAF safe;
+    class U,CF,NG,CP,AG,GIT,APP main;
+    class LIM,WD safe;
+    style GR fill:#f0fbfa,stroke:#1a7f77,stroke-dasharray:4 3;
 ```
 
 </details>

@@ -24,17 +24,27 @@ The source code is closed. This page shows how it is built.
 
 ```mermaid
 flowchart TD
-    ME[Me<br>Phone control page with Google login] --> AG[AI agent sessions<br>Write and change the code]
-    AG --> QA[Quality gates<br>All tests, one change merged at a time]
-    QA --> REL[Staged release<br>Test site first, then live]
-    REL --> APP[My apps<br>In use]
+    U[Me<br>On my phone] --> CF[Cloudflare<br>Google sign-in]
+    CF --> NG[Nginx<br>Gateway]
+    NG --> CP[Control page<br>See, pause and resume agents]
+    CP --> AG[AI agents<br>Claude Code sessions]
+    AG --> GIT[Git<br>Tests before every merge]
+    GIT --> APP[Apps<br>Test site, then live after my approval]
 
-    SAF[Safety<br>Resource limits and alerts<br>Auto-restart and session restore] -. watches and repairs .-> AG
+    subgraph GR[Guardrails]
+        LIM[Limits<br>Heat, load and memory]
+        WD[Watchdog<br>Restart and session restore]
+    end
+
+    LIM -. Pauses .-> AG
+    WD -. Repairs .-> AG
+    LIM -. Phone alert .-> U
 
     classDef main fill:#f6f8fa,stroke:#57606a,color:#1f2328;
     classDef safe fill:#e6f6f4,stroke:#1a7f77,color:#1f2328;
-    class ME,AG,QA,REL,APP main;
-    class SAF safe;
+    class U,CF,NG,CP,AG,GIT,APP main;
+    class LIM,WD safe;
+    style GR fill:#f0fbfa,stroke:#1a7f77,stroke-dasharray:4 3;
 ```
 
 </blockquote>
