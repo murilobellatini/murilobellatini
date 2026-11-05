@@ -126,20 +126,24 @@ I built the safety first: limits, a stop button, and tests before every change.
 
 <blockquote>
 
-[![](https://mermaid.ink/img/pako:eNo1kN2KwjAQhV9lyLXdB5BFyKqUBYsVC3uR9SJrp22g-WGSVor47pu0NTchmfPNnDlPdrc1si1revu4d5ICVIdfA_EUR1Hg5x_tzgb0BK6zBm-QZTvYVyextyaQ7cHJdhaVcvAIloDQDxohfpvgb0urCMwgzwX_XksJ-iEVotTUQIOB0CEkNyvE85m5cFGhD36R4ajwkdAvbCwh4Ig0QTRu2jd34cussryKYgLp3DzrpEaEyED0ScnYos4P4iobDBO0g6R6lWoV_AZkj5Ruj32TETqpKAbwMS_ypuMbyhTNooZULY5swzSSlqpm2yeLi-mUcY2NHPrAXq9_t7B5kw==?type=png)](https://mermaid.live/edit#pako:eNo1kN2KwjAQhV9lyLXdB5BFyKqUBYsVC3uR9SJrp22g-WGSVor47pu0NTchmfPNnDlPdrc1si1revu4d5ICVIdfA_EUR1Hg5x_tzgb0BK6zBm-QZTvYVyextyaQ7cHJdhaVcvAIloDQDxohfpvgb0urCMwgzwX_XksJ-iEVotTUQIOB0CEkNyvE85m5cFGhD36R4ajwkdAvbCwh4Ig0QTRu2jd34cussryKYgLp3DzrpEaEyED0ScnYos4P4iobDBO0g6R6lWoV_AZkj5Ruj32TETqpKAbwMS_ypuMbyhTNooZULY5swzSSlqpm2yeLi-mUcY2NHPrAXq9_t7B5kw==)
+[![](https://mermaid.ink/img/pako:eNp1ktFr2zAQxv-Vw3lVytptSXFHwdA2FBZImkIfvD7c7JMtJktBOi-E0v99J7kptDA_Cd_97vvuk16KxrdUlIW2_tD0GBgeb345kG99W6_px-9wvem9I2i84-At7LEjOBjuYeV9Zwms74x7hvn8GqpVXd2DNDiGSDEa72Ka8BQME6BrQSSc8NyngS09T1LVKuPbqt6OaA0foUOmjFbWghw5KsguJn6g0FELyIDAZjjN2VZ5zsPtz3rHmDoCWcKY13iUKRCTEW1CZJVMOLDm74kWbNpis6nXR8D9Pju4dzDG1DN17aq7eoea-JiKDxT9GBpJwQyGY94RLQWezI_s50F0U66p9BYKpH8-kKR2BgfkpqcJDbRHMQdnOcyTZGMxxhvSMKBx4t7acqYX-lKjinInf6icfV8uvixQNd76UM7O9cXXi8urT3QU1280LYT_9k6f41Ivl_-n5S2oaqW2lZKMlOSTnXzokFiywFWhCrkdqbdF-VJIxkN6Xi1pHC0Xr6__AC-xzRs=?type=png)](https://mermaid.live/edit#pako:eNp1ktFr2zAQxv-Vw3lVytptSXFHwdA2FBZImkIfvD7c7JMtJktBOi-E0v99J7kptDA_Cd_97vvuk16KxrdUlIW2_tD0GBgeb345kG99W6_px-9wvem9I2i84-At7LEjOBjuYeV9Zwms74x7hvn8GqpVXd2DNDiGSDEa72Ka8BQME6BrQSSc8NyngS09T1LVKuPbqt6OaA0foUOmjFbWghw5KsguJn6g0FELyIDAZjjN2VZ5zsPtz3rHmDoCWcKY13iUKRCTEW1CZJVMOLDm74kWbNpis6nXR8D9Pju4dzDG1DN17aq7eoea-JiKDxT9GBpJwQyGY94RLQWezI_s50F0U66p9BYKpH8-kKR2BgfkpqcJDbRHMQdnOcyTZGMxxhvSMKBx4t7acqYX-lKjinInf6icfV8uvixQNd76UM7O9cXXi8urT3QU1280LYT_9k6f41Ivl_-n5S2oaqW2lZKMlOSTnXzokFiywFWhCrkdqbdF-VJIxkN6Xi1pHC0Xr6__AC-xzRs=)
 
 <details>
 <summary>Mermaid code</summary>
 
 ```mermaid
 flowchart TD
-    ME[Me<br>On my phone] --> CTL[Control page<br>Pause or resume agents]
-    CTL --> AG[AI agents<br>Write and run the code]
-    AG --> QA[Tests and review<br>Before every change]
-    QA --> APPS[My apps<br>Live for users]
+    ME[Me<br>Phone control page with Google login] --> AG[AI agent sessions<br>Write and change the code]
+    AG --> QA[Quality gates<br>All tests, one change merged at a time]
+    QA --> REL[Staged release<br>Test site first, then live]
+    REL --> APP[My apps<br>In use]
 
-    GD[Safety guards<br>Limits, alerts, self-repair] -.-> AG
-    GD -. Phone alert .-> ME
+    SAF[Safety<br>Resource limits and alerts<br>Auto-restart and session restore] -. watches and repairs .-> AG
+
+    classDef main fill:#f6f8fa,stroke:#57606a,color:#1f2328;
+    classDef safe fill:#e6f6f4,stroke:#1a7f77,color:#1f2328;
+    class ME,AG,QA,REL,APP main;
+    class SAF safe;
 ```
 
 </details>

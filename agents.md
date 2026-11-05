@@ -24,13 +24,17 @@ The source code is closed. This page shows how it is built.
 
 ```mermaid
 flowchart TD
-    ME[Me<br>On my phone] --> CTL[Control page<br>Pause or resume agents]
-    CTL --> AG[AI agents<br>Write and run the code]
-    AG --> QA[Tests and review<br>Before every change]
-    QA --> APPS[My apps<br>Live for users]
+    ME[Me<br>Phone control page with Google login] --> AG[AI agent sessions<br>Write and change the code]
+    AG --> QA[Quality gates<br>All tests, one change merged at a time]
+    QA --> REL[Staged release<br>Test site first, then live]
+    REL --> APP[My apps<br>In use]
 
-    GD[Safety guards<br>Limits, alerts, self-repair] -.-> AG
-    GD -. Phone alert .-> ME
+    SAF[Safety<br>Resource limits and alerts<br>Auto-restart and session restore] -. watches and repairs .-> AG
+
+    classDef main fill:#f6f8fa,stroke:#57606a,color:#1f2328;
+    classDef safe fill:#e6f6f4,stroke:#1a7f77,color:#1f2328;
+    class ME,AG,QA,REL,APP main;
+    class SAF safe;
 ```
 
 </blockquote>
