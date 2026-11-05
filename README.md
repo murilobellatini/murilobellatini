@@ -104,6 +104,24 @@ Supported cross-functional teams through shadowing and reverse shadowing.
 <blockquote>
 
 <details>
+<summary>AI Agents on a Raspberry Pi</summary>
+
+<blockquote>
+
+Agents are only useful if you can trust them.
+
+I run a small home server where AI agents build and run my apps, including FitGo.
+
+A phone page shows every agent. I can pause one, or all.
+Limits, self-repair and tests before every change keep it safe.
+
+[Architecture ↗](agents.md) (the code is closed source)
+
+</blockquote>
+
+</details>
+
+<details>
 <summary>FitGo — Home Fitness Application</summary>
 
 <blockquote>
