@@ -124,21 +124,21 @@ I run AI agents on a small home server. They send me a demo and a pull request. 
 
 <blockquote>
 
-[![](https://mermaid.ink/img/pako:eNp1ktFPwjAQxv-Vy3gdBgUVpiFZgpJFCMskvkweuu0K1W6dbYchhP_dW0GMJvbx7n7f992ley9XBXqBx6X6zDdMW1hOXiugN39I53if6XG8URUCqwpoZ8Gg3qJeQbc7hnCahhGwNVbWtKNRZQSNrBumC82ENKujVjh148s0bKwqmRU5WDRHJkEmuw2pwptqdIU7V11UgGSzAwpVrfGksyQZiJkxTi5O0gmWykWrGylB40dDsi4JWIKFhXJnUPIf_gIeKRhcuPTHapw4ucVTSrvUtVbbb7_Fk-vMopeHdCZc-YREacJMnaEml1i0js9k093QMoZu8y1_nM4lRZ4gh_bKwIWUQecSr0b9zDdWq3cMOqMB62dDP1dS6aDDh5zx_O4PvWYWT3SP397c4Jm-RmTF4Ey795euxYnNBtf93ujM8rzoD4r_WfoIfjj12xu4_L96Sz9OfLpSG-1XI47I8M7zvRJ1yUThBXvPbrBs_1qBnDXSeofDF9tPy64=?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNp1ktFPwjAQxv-Vy3gdBgUVpiFZgpJFCMskvkweuu0K1W6dbYchhP_dW0GMJvbx7n7f992ley9XBXqBx6X6zDdMW1hOXiugN39I53if6XG8URUCqwpoZ8Gg3qJeQbc7hnCahhGwNVbWtKNRZQSNrBumC82ENKujVjh148s0bKwqmRU5WDRHJkEmuw2pwptqdIU7V11UgGSzAwpVrfGksyQZiJkxTi5O0gmWykWrGylB40dDsi4JWIKFhXJnUPIf_gIeKRhcuPTHapw4ucVTSrvUtVbbb7_Fk-vMopeHdCZc-YREacJMnaEml1i0js9k093QMoZu8y1_nM4lRZ4gh_bKwIWUQecSr0b9zDdWq3cMOqMB62dDP1dS6aDDh5zx_O4PvWYWT3SP397c4Jm-RmTF4Ey795euxYnNBtf93ujM8rzoD4r_WfoIfjj12xu4_L96Sz9OfLpSG-1XI47I8M7zvRJ1yUThBXvPbrBs_1qBnDXSeofDF9tPy64=)
+[![](https://mermaid.ink/img/pako:eNp1kl9LwzAUxb_KJXtR6GS6-WdVhMF0FBVLHb5sPqTtzRZNm5qkyhC_u7dpnWxgHnPv75xzb_LFMp0jC5lQ-jNbc-NgPl2WQOfhZrFkD3iVmuuDeK1LBF7m0LSDRfOB5nDJXqDfv4bJjDonEfAVls56ICqtpMZVzU1uuFS2aW51JzMPzRumdrrgTmbg0HZkglz1a3KAV12bEjc2AF0CkuEGKGG5wj-tOUlBzK31knFCmlMstE9a1UqBwfeapNtM4EhCOig2FpXYUTmCW0oJR36a9jZOvOjj3YImqyqjP7Drf7zzlfvo-WZxL_11h0QUIOG2StGQVSy97xOZ9dc0lm039mvSMpmi-FMU0LwACKlU2DvGk_EwDawz-g3D3njEh-lFkGmlTdgTF4KL7HKPXnGHHT0Q52dnuKVPEXk-2tL-7NOV7Nh0dDocjLesyPLhKP-fpU8STGZBswmff6c2D-IkoF010XYKcUSGlyxgBZqCy5yFX8ytsWj-YY6C18qx7-8ffE3RTQ==?type=png&bgColor=ffffff)](https://mermaid.live/edit#pako:eNp1kl9LwzAUxb_KJXtR6GS6-WdVhMF0FBVLHb5sPqTtzRZNm5qkyhC_u7dpnWxgHnPv75xzb_LFMp0jC5lQ-jNbc-NgPl2WQOfhZrFkD3iVmuuDeK1LBF7m0LSDRfOB5nDJXqDfv4bJjDonEfAVls56ICqtpMZVzU1uuFS2aW51JzMPzRumdrrgTmbg0HZkglz1a3KAV12bEjc2AF0CkuEGKGG5wj-tOUlBzK31knFCmlMstE9a1UqBwfeapNtM4EhCOig2FpXYUTmCW0oJR36a9jZOvOjj3YImqyqjP7Drf7zzlfvo-WZxL_11h0QUIOG2StGQVSy97xOZ9dc0lm039mvSMpmi-FMU0LwACKlU2DvGk_EwDawz-g3D3njEh-lFkGmlTdgTF4KL7HKPXnGHHT0Q52dnuKVPEXk-2tL-7NOV7Nh0dDocjLesyPLhKP-fpU8STGZBswmff6c2D-IkoF010XYKcUSGlyxgBZqCy5yFX8ytsWj-YY6C18qx7-8ffE3RTQ==)
 
 <details>
 <summary>Mermaid code</summary>
 
 ```mermaid
 flowchart TD
-    ME[Me<br>Phone and code server] --> AG[AI agents<br>Inside guardrails]
-    AG --> T[Automatic tests<br>Real-user journeys<br>On every change]
-    T -- Pass --> PR[Demo and pull request<br>I try it myself]
+    ME["Me<br>(Phone and code server)"] --> AG["AI agents<br>(Inside guardrails)"]
+    AG --> T["Automatic tests<br>(Real-user journeys, on every change)"]
+    T -- Pass --> PR["Demo and pull request<br>(I try it myself)"]
     T -. Fail .-> AG
     PR --> OK[I approve]
     OK --> LIVE[Live]
 
-    PI[Raspberry Pi<br>Self-heals] -.-> AG
+    PI["Raspberry Pi<br>(Self-heals)"] -.-> AG
 
     classDef flow fill:#1e293b,stroke:#94a3b8,color:#f8fafc;
     classDef gate fill:#0f766e,stroke:#5eead4,color:#ffffff;

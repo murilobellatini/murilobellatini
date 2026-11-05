@@ -24,14 +24,14 @@ The source code is closed. This page shows how it is built.
 
 ```mermaid
 flowchart TD
-    ME[Me<br>Phone and code server] --> AG[AI agents<br>Inside guardrails]
-    AG --> T[Automatic tests<br>Real-user journeys<br>On every change]
-    T -- Pass --> PR[Demo and pull request<br>I try it myself]
+    ME["Me<br>(Phone and code server)"] --> AG["AI agents<br>(Inside guardrails)"]
+    AG --> T["Automatic tests<br>(Real-user journeys, on every change)"]
+    T -- Pass --> PR["Demo and pull request<br>(I try it myself)"]
     T -. Fail .-> AG
     PR --> OK[I approve]
     OK --> LIVE[Live]
 
-    PI[Raspberry Pi<br>Self-heals] -.-> AG
+    PI["Raspberry Pi<br>(Self-heals)"] -.-> AG
 
     classDef flow fill:#1e293b,stroke:#94a3b8,color:#f8fafc;
     classDef gate fill:#0f766e,stroke:#5eead4,color:#ffffff;
