@@ -36,7 +36,7 @@ Technical lead for BMW's generative AI agent platform.
 Built voice assistants with LLaMA, Mistral and RASA.
 
 - First client test version in under 2 months, after internal user testing.
-- Research: an empathetic agent with a knowledge graph ([demo video](https://youtu.be/K1lbAF3LXgk)).
+- Research: an empathetic agent with a knowledge graph ([demo video](https://youtu.be/K1lbAF3LXgk), [code](https://github.com/murilobellatini/RelNetCare)).
 
 ### Data Engineer
 *[incuda](https://www.incuda.net/) | Munich, Germany | Sep 2021 – Jun 2023*
@@ -47,10 +47,10 @@ Data workflows and reports for customers.
 - Automated ETL workflows. One migration went from days to hours.
 - Evaluated early AI use cases.
 
-### Data and AI Consultant
+### Data and ML Consultant
 *Self-employed | São Paulo, Brazil | 2018 – 2021*
 
-Data and AI projects for companies, from requirements to delivery.
+Data and ML projects for companies, from requirements to delivery.
 
 - [Comdata](https://www.linkedin.com/company/comdatagroup/): planned voice analytics for 20+ call centers.
 - [Grupo ZAP](https://www.zapimoveis.com.br): fraud detection. Chose simple CAPTCHA controls over a complex ML model.
@@ -68,12 +68,13 @@ Selected from 18,000+ applicants as a trainee.
 
 ## Selected AI Projects
 
-### Personal AI Projects
+### Personal Projects
 *Self-initiated | Munich, Germany | 2021 – Present*
 
 A product, a course and open source tools.
 
 - [FitGo](https://github.com/murilobellatini/murilobellatini/blob/master/projects/fitgo.md): home fitness web app, built AI-native. 34 Playwright tests. In user validation.
+- [AI agents on a Raspberry Pi](https://github.com/murilobellatini/murilobellatini/blob/master/projects/pi-agents.md): a home server where agents build my apps. All tests run before every merge.
 - Teaching: [Estratégias de Análise de Dados](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados), a practical data analysis course (in Portuguese).
 - Open source: [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa), [Smart Poster](https://github.com/murilobellatini/smart-poster).
 
