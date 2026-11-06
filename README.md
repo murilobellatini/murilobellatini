@@ -383,7 +383,7 @@ The public training data did not closely match real healthcare conversations, li
 
 <blockquote>
 
-Text-driven 3D styling, developed at the Technical University of Munich with [Maximilian Winter](https://github.com/MaximilianWinter).
+Text-driven 3D styling, co-developed at the Technical University of Munich with [Maximilian Winter](https://github.com/MaximilianWinter).
 
 [View on GitHub ↗](https://github.com/MaximilianWinter/SegmentStyler)
 
