@@ -73,7 +73,7 @@ Selected from 18,000+ applicants as a trainee.
 
 A product, a course and open source tools.
 
-- [FitGo](https://github.com/murilobellatini/murilobellatini/blob/master/fitgo.md): home fitness web app, built AI-native. 34 Playwright tests. In user validation.
+- [FitGo](https://github.com/murilobellatini/murilobellatini/blob/master/projects/fitgo.md): home fitness web app, built AI-native. 34 Playwright tests. In user validation.
 - Teaching: [Estratégias de Análise de Dados](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados), a practical data analysis course (in Portuguese).
 - Open source: [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa), [Smart Poster](https://github.com/murilobellatini/smart-poster).
 

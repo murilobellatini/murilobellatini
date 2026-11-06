@@ -112,7 +112,7 @@ Agents are only useful if you can trust them.
 
 I run AI agents on a small home server. They send me a demo and a pull request. I approve. I only review demos, so I move faster.
 
-[Architecture ↗](agents.md) (the code is closed source)
+[Architecture ↗](projects/pi-agents.md) (the code is closed source)
 
 <details>
 <summary>Technical implementation</summary>
@@ -200,7 +200,7 @@ AI agents wrote much of the code. I focused on product direction, architecture, 
 
 The application is now entering validation with real users.
 
-[Open FitGo ↗](https://muriloapps.dpdns.org/fitgo/) · [Architecture ↗](fitgo.md) (the code is closed source)
+[Open FitGo ↗](https://muriloapps.dpdns.org/fitgo/) · [Architecture ↗](projects/fitgo.md) (the code is closed source)
 
 <details>
 <summary>Product Pitch</summary>
