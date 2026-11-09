@@ -75,7 +75,7 @@ A product, a course and open source tools.
 
 - [FitGo](https://github.com/murilobellatini/murilobellatini/blob/master/projects/fitgo.md): home fitness web app, built AI-native. 34 Playwright tests. In user validation.
 - [AI agents on a Raspberry Pi](https://github.com/murilobellatini/murilobellatini/blob/master/projects/pi-agents.md): a home server where agents build my apps. All tests run before every merge.
-- Teaching: [Estratégias de Análise de Dados](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados), a practical data analysis course (in Portuguese).
+- Teaching: [Estratégias de Análise de Dados](https://muriloapps.dpdns.org/course/), a practical data analysis course (in Portuguese).
 - Open source: [Dialog2Rasa](https://github.com/murilobellatini/dialog2rasa), [Smart Poster](https://github.com/murilobellatini/smart-poster).
 
 ### Applied AI Projects

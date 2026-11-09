@@ -409,7 +409,9 @@ I created *Estratégias de Análise de Dados* (*Strategies for Data Analysis*), 
 
 The course grew from a simple aim: make data analysis less abstract and connect the tools to real questions.
 
-[View the course ↗](https://hotmart.com/pt-br/marketplace/produtos/estrategias-de-analise-de-dados)
+Made in Brazil, when many people were switching careers into data and needed one clear path. Recorded before AI assistants were common, the strategy still holds: start from a guess, check it with the data, and check what any tool tells you.
+
+[View the course ↗](https://muriloapps.dpdns.org/course/)
 
 </blockquote>
 
