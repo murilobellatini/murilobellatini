@@ -344,8 +344,3 @@ A local data lake prototype with PySpark, Jupyter and Docker.
 </details>
 </blockquote>
 
-</details>
-
-</blockquote>
-
-</details>
