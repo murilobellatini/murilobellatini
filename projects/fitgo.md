@@ -4,7 +4,7 @@ FitGo is a home fitness web app. One button, press play, follow along.
 
 The source code is closed. This page shows how it is built.
 
-[Open FitGo ↗](https://muriloapps.dpdns.org/fitgo/) · [Back to profile](README.md)
+[Open FitGo ↗](https://muriloapps.dpdns.org/fitgo/) · [Back to profile](../README.md)
 
 > Click on the rows to expand or collapse.
 

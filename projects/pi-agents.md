@@ -10,7 +10,7 @@ I only review demos, so I move faster.
 
 The source code is closed. This page shows how it is built.
 
-[Back to profile](README.md)
+[Back to profile](../README.md)
 
 > Click on the rows to expand or collapse.
 
